@@ -11,3 +11,8 @@
 |------------|-----------:|-----------:|-------:|
 | Benchmark  |       87.7 |       42.8 | 2h 10m |
 | Database   |      124.2 |       84.8 |     NA |
+
+<p>
+  <img src="images/training_history.png" width=30%>
+  <img src="images/test_prediction.png" width=30%>
+</p>
