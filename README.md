@@ -7,6 +7,23 @@ Click on the above Colab link to create a Colab notebook for a data loading tuto
 
 How to create this dataset is described in [here](https://github.com/Tony-Y/cgnn/tree/master/OQMD).
 
+## Abnormal Entry
+There is an obviously abnormal entry in this dataset.
+
+| index  | name        | formula | spacegroup | nelements | nsites |
+|--------|-------------|---------|------------|-----------|--------|
+| 277145 | oqmd-753381 | Mg      | 10         | 2         | 1      |
+
+This problem originates in the OQMD. You can see its calculation result at [link](https://oqmd.org/analysis/calculation/2006132) on the online database (based on OQMD v1.5 as of April 19, 2022). You can remove this entry by modifying the `split` file as follows:
+```python
+import json
+with open('split.json') as f:
+    split = json.load(f)
+split['train'].remove(277145)
+with open("split.json", 'w') as f:
+    json.dump(split, f)
+```
+
 # Gallery
 [Jadeite](https://en.wikipedia.org/wiki/Jadeite),
 [Benitoite](https://en.wikipedia.org/wiki/Benitoite),
