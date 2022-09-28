@@ -1,7 +1,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tony-Y/oqmd-v1.2-dataset-for-cgnn/blob/main/OQMD_v1_2_dataset_for_CGNN.ipynb)
 
 # OQMD v1.2 Dataset for CGNN
-This dataset is downloadable from [this link](https://drive.google.com/file/d/1I6nS4l15SeX5S4VcU3jKG5Iqvomj7eXB/view?usp=sharing), which contains 561,888 materials. Its format is described in [here](https://github.com/Tony-Y/cgnn#dataset-files). The original data is available at [the OQMD website](https://oqmd.org/).
+This dataset is downloadable from [this link](https://doi.org/10.5281/zenodo.7118055), which contains 561,888 materials. Its format is described in [here](https://github.com/Tony-Y/cgnn#dataset-files). The original data is available at [the OQMD website](https://oqmd.org/).
 
 Click on the above Colab link to create a Colab notebook for a data loading tutorial.
 
