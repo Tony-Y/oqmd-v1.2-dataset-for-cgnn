@@ -3,3 +3,4 @@
 
 * CGNN v1.0.2
 * PyTorch 1.10.2 + CUDA 10.2
+* oqmd_fe_benchmark
