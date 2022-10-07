@@ -1,0 +1,1821 @@
+Device: cuda
+
+Model: {'n_node_feat': 89, 'n_hidden_feat': 96, 'n_graph_feat': 192, 'n_conv': 4, 'n_fc': 2, 'activation': 'softplus', 'use_batch_norm': True, 'node_activation': None, 'use_node_batch_norm': False, 'edge_activation': None, 'use_edge_batch_norm': False, 'n_edge_net_feat': 16, 'n_edge_net_layers': 0, 'edge_net_activation': 'elu', 'use_edge_net_batch_norm': False, 'use_fast_edge_network': False, 'fast_edge_network_type': 0, 'use_aggregated_edge_network': False, 'edge_net_cardinality': 32, 'edge_net_width': 4, 'use_edge_net_shortcut': False, 'n_postconv_net_layers': 0, 'postconv_net_activation': 'elu', 'use_postconv_net_batch_norm': False, 'conv_bias': False, 'edge_net_bias': False, 'postconv_net_bias': False, 'full_pooling': True, 'gated_pooling': True, 'conv_type': 0, 'use_extension': False}
+
+Optimizer: {'optim': 'adam', 'lr': 0.001, 'weight_decay': 1e-06, 'clip_value': None}
+
+Scheduler: {'milestones': [250], 'gamma': 0.1, 'cosine_annealing': False}
+
+Dataset: {'dataset_path': '../../OQMD', 'target_name': 'formation_energy_per_atom', 'split_file': '../../OQMD/split.json'}
+
+Dataloader: {'num_workers': 0, 'batch_size': 512}
+
+Seed: 12345
+
+test: 55732 train: 449867 val: 56289
+Epoch 0/299
+current lr: 0.001
+train loss: 0.1732 mae: 0.2843
+val loss: 0.0851 mae: 0.2012
+Elapsed time (sec.): 17.453
+
+Epoch 1/299
+current lr: 0.001
+train loss: 0.0735 mae: 0.1915
+val loss: 0.0687 mae: 0.1900
+Elapsed time (sec.): 14.074
+
+Epoch 2/299
+current lr: 0.001
+train loss: 0.0542 mae: 0.1630
+val loss: 0.0442 mae: 0.1432
+Elapsed time (sec.): 14.166
+
+Epoch 3/299
+current lr: 0.001
+train loss: 0.0440 mae: 0.1454
+val loss: 0.0432 mae: 0.1473
+Elapsed time (sec.): 16.493
+
+Epoch 4/299
+current lr: 0.001
+train loss: 0.0380 mae: 0.1345
+val loss: 0.0411 mae: 0.1488
+Elapsed time (sec.): 14.100
+
+Epoch 5/299
+current lr: 0.001
+train loss: 0.0345 mae: 0.1280
+val loss: 0.0310 mae: 0.1220
+Elapsed time (sec.): 16.439
+
+Epoch 6/299
+current lr: 0.001
+train loss: 0.0311 mae: 0.1209
+val loss: 0.0244 mae: 0.1039
+Elapsed time (sec.): 14.081
+
+Epoch 7/299
+current lr: 0.001
+train loss: 0.0283 mae: 0.1144
+val loss: 0.0377 mae: 0.1342
+Elapsed time (sec.): 13.938
+
+Epoch 8/299
+current lr: 0.001
+train loss: 0.0276 mae: 0.1129
+val loss: 0.0229 mae: 0.1010
+Elapsed time (sec.): 16.584
+
+Epoch 9/299
+current lr: 0.001
+train loss: 0.0264 mae: 0.1108
+val loss: 0.0217 mae: 0.0988
+Elapsed time (sec.): 15.460
+
+Epoch 10/299
+current lr: 0.001
+train loss: 0.0238 mae: 0.1045
+val loss: 0.0224 mae: 0.1019
+Elapsed time (sec.): 16.470
+
+Epoch 11/299
+current lr: 0.001
+train loss: 0.0228 mae: 0.1020
+val loss: 0.0181 mae: 0.0865
+Elapsed time (sec.): 13.580
+
+Epoch 12/299
+current lr: 0.001
+train loss: 0.0221 mae: 0.1007
+val loss: 0.0211 mae: 0.1026
+Elapsed time (sec.): 13.864
+
+Epoch 13/299
+current lr: 0.001
+train loss: 0.0207 mae: 0.0967
+val loss: 0.0173 mae: 0.0821
+Elapsed time (sec.): 15.976
+
+Epoch 14/299
+current lr: 0.001
+train loss: 0.0210 mae: 0.0978
+val loss: 0.0175 mae: 0.0837
+Elapsed time (sec.): 13.645
+
+Epoch 15/299
+current lr: 0.001
+train loss: 0.0200 mae: 0.0955
+val loss: 0.0186 mae: 0.0895
+Elapsed time (sec.): 15.977
+
+Epoch 16/299
+current lr: 0.001
+train loss: 0.0188 mae: 0.0922
+val loss: 0.0165 mae: 0.0806
+Elapsed time (sec.): 13.688
+
+Epoch 17/299
+current lr: 0.001
+train loss: 0.0184 mae: 0.0911
+val loss: 0.0157 mae: 0.0804
+Elapsed time (sec.): 13.663
+
+Epoch 18/299
+current lr: 0.001
+train loss: 0.0179 mae: 0.0897
+val loss: 0.0159 mae: 0.0815
+Elapsed time (sec.): 15.965
+
+Epoch 19/299
+current lr: 0.001
+train loss: 0.0173 mae: 0.0885
+val loss: 0.0153 mae: 0.0816
+Elapsed time (sec.): 13.743
+
+Epoch 20/299
+current lr: 0.001
+train loss: 0.0170 mae: 0.0881
+val loss: 0.0147 mae: 0.0774
+Elapsed time (sec.): 17.076
+
+Epoch 21/299
+current lr: 0.001
+train loss: 0.0163 mae: 0.0855
+val loss: 0.0134 mae: 0.0733
+Elapsed time (sec.): 13.625
+
+Epoch 22/299
+current lr: 0.001
+train loss: 0.0161 mae: 0.0854
+val loss: 0.0129 mae: 0.0697
+Elapsed time (sec.): 13.623
+
+Epoch 23/299
+current lr: 0.001
+train loss: 0.0160 mae: 0.0848
+val loss: 0.0125 mae: 0.0674
+Elapsed time (sec.): 16.097
+
+Epoch 24/299
+current lr: 0.001
+train loss: 0.0156 mae: 0.0843
+val loss: 0.0139 mae: 0.0773
+Elapsed time (sec.): 13.953
+
+Epoch 25/299
+current lr: 0.001
+train loss: 0.0153 mae: 0.0831
+val loss: 0.0141 mae: 0.0776
+Elapsed time (sec.): 13.966
+
+Epoch 26/299
+current lr: 0.001
+train loss: 0.0148 mae: 0.0815
+val loss: 0.0133 mae: 0.0711
+Elapsed time (sec.): 16.160
+
+Epoch 27/299
+current lr: 0.001
+train loss: 0.0149 mae: 0.0823
+val loss: 0.0138 mae: 0.0789
+Elapsed time (sec.): 13.626
+
+Epoch 28/299
+current lr: 0.001
+train loss: 0.0141 mae: 0.0791
+val loss: 0.0117 mae: 0.0653
+Elapsed time (sec.): 15.953
+
+Epoch 29/299
+current lr: 0.001
+train loss: 0.0143 mae: 0.0804
+val loss: 0.0109 mae: 0.0629
+Elapsed time (sec.): 13.681
+
+Epoch 30/299
+current lr: 0.001
+train loss: 0.0135 mae: 0.0772
+val loss: 0.0114 mae: 0.0638
+Elapsed time (sec.): 13.751
+
+Epoch 31/299
+current lr: 0.001
+train loss: 0.0134 mae: 0.0768
+val loss: 0.0118 mae: 0.0676
+Elapsed time (sec.): 15.945
+
+Epoch 32/299
+current lr: 0.001
+train loss: 0.0140 mae: 0.0796
+val loss: 0.0108 mae: 0.0628
+Elapsed time (sec.): 14.926
+
+Epoch 33/299
+current lr: 0.001
+train loss: 0.0134 mae: 0.0766
+val loss: 0.0126 mae: 0.0728
+Elapsed time (sec.): 16.450
+
+Epoch 34/299
+current lr: 0.001
+train loss: 0.0134 mae: 0.0779
+val loss: 0.0118 mae: 0.0700
+Elapsed time (sec.): 14.086
+
+Epoch 35/299
+current lr: 0.001
+train loss: 0.0127 mae: 0.0751
+val loss: 0.0123 mae: 0.0707
+Elapsed time (sec.): 14.086
+
+Epoch 36/299
+current lr: 0.001
+train loss: 0.0129 mae: 0.0760
+val loss: 0.0109 mae: 0.0635
+Elapsed time (sec.): 16.215
+
+Epoch 37/299
+current lr: 0.001
+train loss: 0.0124 mae: 0.0742
+val loss: 0.0145 mae: 0.0834
+Elapsed time (sec.): 13.905
+
+Epoch 38/299
+current lr: 0.001
+train loss: 0.0126 mae: 0.0750
+val loss: 0.0111 mae: 0.0672
+Elapsed time (sec.): 16.153
+
+Epoch 39/299
+current lr: 0.001
+train loss: 0.0122 mae: 0.0733
+val loss: 0.0115 mae: 0.0676
+Elapsed time (sec.): 13.893
+
+Epoch 40/299
+current lr: 0.001
+train loss: 0.0128 mae: 0.0747
+val loss: 0.0321 mae: 0.1234
+Elapsed time (sec.): 16.279
+
+Epoch 41/299
+current lr: 0.001
+train loss: 0.0136 mae: 0.0778
+val loss: 0.0110 mae: 0.0633
+Elapsed time (sec.): 14.018
+
+Epoch 42/299
+current lr: 0.001
+train loss: 0.0116 mae: 0.0716
+val loss: 0.0131 mae: 0.0771
+Elapsed time (sec.): 13.835
+
+Epoch 43/299
+current lr: 0.001
+train loss: 0.0115 mae: 0.0709
+val loss: 0.0103 mae: 0.0606
+Elapsed time (sec.): 17.370
+
+Epoch 44/299
+current lr: 0.001
+train loss: 0.0118 mae: 0.0721
+val loss: 0.0100 mae: 0.0586
+Elapsed time (sec.): 13.885
+
+Epoch 45/299
+current lr: 0.001
+train loss: 0.0120 mae: 0.0733
+val loss: 0.0130 mae: 0.0774
+Elapsed time (sec.): 16.587
+
+Epoch 46/299
+current lr: 0.001
+train loss: 0.0116 mae: 0.0716
+val loss: 0.0101 mae: 0.0597
+Elapsed time (sec.): 14.172
+
+Epoch 47/299
+current lr: 0.001
+train loss: 0.0117 mae: 0.0722
+val loss: 0.0100 mae: 0.0596
+Elapsed time (sec.): 14.351
+
+Epoch 48/299
+current lr: 0.001
+train loss: 0.0113 mae: 0.0704
+val loss: 0.0100 mae: 0.0593
+Elapsed time (sec.): 16.265
+
+Epoch 49/299
+current lr: 0.001
+train loss: 0.0112 mae: 0.0698
+val loss: 0.0154 mae: 0.0875
+Elapsed time (sec.): 13.855
+
+Epoch 50/299
+current lr: 0.001
+train loss: 0.0112 mae: 0.0697
+val loss: 0.0131 mae: 0.0815
+Elapsed time (sec.): 13.745
+
+Epoch 51/299
+current lr: 0.001
+train loss: 0.0117 mae: 0.0715
+val loss: 0.0112 mae: 0.0633
+Elapsed time (sec.): 16.036
+
+Epoch 52/299
+current lr: 0.001
+train loss: 0.0111 mae: 0.0691
+val loss: 0.0125 mae: 0.0756
+Elapsed time (sec.): 13.766
+
+Epoch 53/299
+current lr: 0.001
+train loss: 0.0109 mae: 0.0692
+val loss: 0.0101 mae: 0.0597
+Elapsed time (sec.): 16.153
+
+Epoch 54/299
+current lr: 0.001
+train loss: 0.0106 mae: 0.0677
+val loss: 0.0098 mae: 0.0571
+Elapsed time (sec.): 13.644
+
+Epoch 55/299
+current lr: 0.001
+train loss: 0.0110 mae: 0.0695
+val loss: 0.0119 mae: 0.0731
+Elapsed time (sec.): 17.362
+
+Epoch 56/299
+current lr: 0.001
+train loss: 0.0107 mae: 0.0684
+val loss: 0.0097 mae: 0.0573
+Elapsed time (sec.): 13.876
+
+Epoch 57/299
+current lr: 0.001
+train loss: 0.0109 mae: 0.0694
+val loss: 0.0125 mae: 0.0773
+Elapsed time (sec.): 14.035
+
+Epoch 58/299
+current lr: 0.001
+train loss: 0.0105 mae: 0.0672
+val loss: 0.0098 mae: 0.0587
+Elapsed time (sec.): 16.124
+
+Epoch 59/299
+current lr: 0.001
+train loss: 0.0105 mae: 0.0676
+val loss: 0.0097 mae: 0.0578
+Elapsed time (sec.): 13.962
+
+Epoch 60/299
+current lr: 0.001
+train loss: 0.0105 mae: 0.0678
+val loss: 0.0099 mae: 0.0605
+Elapsed time (sec.): 16.317
+
+Epoch 61/299
+current lr: 0.001
+train loss: 0.0103 mae: 0.0670
+val loss: 0.0094 mae: 0.0564
+Elapsed time (sec.): 13.937
+
+Epoch 62/299
+current lr: 0.001
+train loss: 0.0104 mae: 0.0669
+val loss: 0.0103 mae: 0.0627
+Elapsed time (sec.): 14.020
+
+Epoch 63/299
+current lr: 0.001
+train loss: 0.0106 mae: 0.0683
+val loss: 0.0129 mae: 0.0800
+Elapsed time (sec.): 16.557
+
+Epoch 64/299
+current lr: 0.001
+train loss: 0.0107 mae: 0.0678
+val loss: 0.0127 mae: 0.0788
+Elapsed time (sec.): 14.249
+
+Epoch 65/299
+current lr: 0.001
+train loss: 0.0099 mae: 0.0652
+val loss: 0.0096 mae: 0.0561
+Elapsed time (sec.): 13.910
+
+Epoch 66/299
+current lr: 0.001
+train loss: 0.0100 mae: 0.0651
+val loss: 0.0098 mae: 0.0588
+Elapsed time (sec.): 17.220
+
+Epoch 67/299
+current lr: 0.001
+train loss: 0.0100 mae: 0.0656
+val loss: 0.0106 mae: 0.0599
+Elapsed time (sec.): 14.067
+
+Epoch 68/299
+current lr: 0.001
+train loss: 0.0099 mae: 0.0655
+val loss: 0.0091 mae: 0.0550
+Elapsed time (sec.): 16.404
+
+Epoch 69/299
+current lr: 0.001
+train loss: 0.0099 mae: 0.0651
+val loss: 0.0096 mae: 0.0581
+Elapsed time (sec.): 13.955
+
+Epoch 70/299
+current lr: 0.001
+train loss: 0.0102 mae: 0.0670
+val loss: 0.0098 mae: 0.0579
+Elapsed time (sec.): 16.212
+
+Epoch 71/299
+current lr: 0.001
+train loss: 0.0099 mae: 0.0656
+val loss: 0.0094 mae: 0.0578
+Elapsed time (sec.): 13.936
+
+Epoch 72/299
+current lr: 0.001
+train loss: 0.0096 mae: 0.0636
+val loss: 0.0097 mae: 0.0580
+Elapsed time (sec.): 13.904
+
+Epoch 73/299
+current lr: 0.001
+train loss: 0.0097 mae: 0.0648
+val loss: 0.0093 mae: 0.0552
+Elapsed time (sec.): 16.296
+
+Epoch 74/299
+current lr: 0.001
+train loss: 0.0099 mae: 0.0651
+val loss: 0.0116 mae: 0.0736
+Elapsed time (sec.): 13.877
+
+Epoch 75/299
+current lr: 0.001
+train loss: 0.0094 mae: 0.0632
+val loss: 0.0092 mae: 0.0564
+Elapsed time (sec.): 16.294
+
+Epoch 76/299
+current lr: 0.001
+train loss: 0.0092 mae: 0.0627
+val loss: 0.0093 mae: 0.0551
+Elapsed time (sec.): 13.859
+
+Epoch 77/299
+current lr: 0.001
+train loss: 0.0094 mae: 0.0636
+val loss: 0.0099 mae: 0.0601
+Elapsed time (sec.): 13.979
+
+Epoch 78/299
+current lr: 0.001
+train loss: 0.0095 mae: 0.0640
+val loss: 0.0116 mae: 0.0637
+Elapsed time (sec.): 16.984
+
+Epoch 79/299
+current lr: 0.001
+train loss: 0.0092 mae: 0.0623
+val loss: 0.0097 mae: 0.0583
+Elapsed time (sec.): 14.005
+
+Epoch 80/299
+current lr: 0.001
+train loss: 0.0094 mae: 0.0633
+val loss: 0.0106 mae: 0.0631
+Elapsed time (sec.): 16.139
+
+Epoch 81/299
+current lr: 0.001
+train loss: 0.0093 mae: 0.0624
+val loss: 0.0095 mae: 0.0571
+Elapsed time (sec.): 13.928
+
+Epoch 82/299
+current lr: 0.001
+train loss: 0.0092 mae: 0.0623
+val loss: 0.0094 mae: 0.0543
+Elapsed time (sec.): 13.818
+
+Epoch 83/299
+current lr: 0.001
+train loss: 0.0092 mae: 0.0628
+val loss: 0.0094 mae: 0.0557
+Elapsed time (sec.): 16.274
+
+Epoch 84/299
+current lr: 0.001
+train loss: 0.0091 mae: 0.0621
+val loss: 0.0096 mae: 0.0572
+Elapsed time (sec.): 13.912
+
+Epoch 85/299
+current lr: 0.001
+train loss: 0.0091 mae: 0.0621
+val loss: 0.0096 mae: 0.0585
+Elapsed time (sec.): 16.289
+
+Epoch 86/299
+current lr: 0.001
+train loss: 0.0091 mae: 0.0619
+val loss: 0.0095 mae: 0.0587
+Elapsed time (sec.): 13.841
+
+Epoch 87/299
+current lr: 0.001
+train loss: 0.0089 mae: 0.0611
+val loss: 0.0103 mae: 0.0640
+Elapsed time (sec.): 13.753
+
+Epoch 88/299
+current lr: 0.001
+train loss: 0.0091 mae: 0.0624
+val loss: 0.0095 mae: 0.0574
+Elapsed time (sec.): 16.070
+
+Epoch 89/299
+current lr: 0.001
+train loss: 0.0086 mae: 0.0602
+val loss: 0.0094 mae: 0.0587
+Elapsed time (sec.): 15.041
+
+Epoch 90/299
+current lr: 0.001
+train loss: 0.0089 mae: 0.0619
+val loss: 0.0115 mae: 0.0655
+Elapsed time (sec.): 16.122
+
+Epoch 91/299
+current lr: 0.001
+train loss: 0.0092 mae: 0.0625
+val loss: 0.0100 mae: 0.0590
+Elapsed time (sec.): 13.798
+
+Epoch 92/299
+current lr: 0.001
+train loss: 0.0089 mae: 0.0611
+val loss: 0.0111 mae: 0.0718
+Elapsed time (sec.): 13.894
+
+Epoch 93/299
+current lr: 0.001
+train loss: 0.0096 mae: 0.0638
+val loss: 0.0094 mae: 0.0559
+Elapsed time (sec.): 16.274
+
+Epoch 94/299
+current lr: 0.001
+train loss: 0.0088 mae: 0.0614
+val loss: 0.0089 mae: 0.0545
+Elapsed time (sec.): 13.825
+
+Epoch 95/299
+current lr: 0.001
+train loss: 0.0088 mae: 0.0613
+val loss: 0.0088 mae: 0.0530
+Elapsed time (sec.): 16.125
+
+Epoch 96/299
+current lr: 0.001
+train loss: 0.0084 mae: 0.0595
+val loss: 0.0118 mae: 0.0762
+Elapsed time (sec.): 13.836
+
+Epoch 97/299
+current lr: 0.001
+train loss: 0.0088 mae: 0.0612
+val loss: 0.0096 mae: 0.0581
+Elapsed time (sec.): 13.781
+
+Epoch 98/299
+current lr: 0.001
+train loss: 0.0087 mae: 0.0607
+val loss: 0.0096 mae: 0.0580
+Elapsed time (sec.): 16.063
+
+Epoch 99/299
+current lr: 0.001
+train loss: 0.0087 mae: 0.0610
+val loss: 0.0114 mae: 0.0675
+Elapsed time (sec.): 13.792
+
+Epoch 100/299
+current lr: 0.001
+train loss: 0.0089 mae: 0.0617
+val loss: 0.0090 mae: 0.0548
+Elapsed time (sec.): 13.958
+
+Epoch 101/299
+current lr: 0.001
+train loss: 0.0086 mae: 0.0602
+val loss: 0.0095 mae: 0.0570
+Elapsed time (sec.): 17.165
+
+Epoch 102/299
+current lr: 0.001
+train loss: 0.0091 mae: 0.0619
+val loss: 0.0109 mae: 0.0616
+Elapsed time (sec.): 13.789
+
+Epoch 103/299
+current lr: 0.001
+train loss: 0.0090 mae: 0.0613
+val loss: 0.0088 mae: 0.0533
+Elapsed time (sec.): 16.151
+
+Epoch 104/299
+current lr: 0.001
+train loss: 0.0083 mae: 0.0592
+val loss: 0.0088 mae: 0.0540
+Elapsed time (sec.): 13.885
+
+Epoch 105/299
+current lr: 0.001
+train loss: 0.0084 mae: 0.0597
+val loss: 0.0092 mae: 0.0562
+Elapsed time (sec.): 16.237
+
+Epoch 106/299
+current lr: 0.001
+train loss: 0.0086 mae: 0.0609
+val loss: 0.0094 mae: 0.0556
+Elapsed time (sec.): 13.940
+
+Epoch 107/299
+current lr: 0.001
+train loss: 0.0085 mae: 0.0603
+val loss: 0.0087 mae: 0.0525
+Elapsed time (sec.): 13.722
+
+Epoch 108/299
+current lr: 0.001
+train loss: 0.0086 mae: 0.0601
+val loss: 0.0091 mae: 0.0541
+Elapsed time (sec.): 16.201
+
+Epoch 109/299
+current lr: 0.001
+train loss: 0.0085 mae: 0.0595
+val loss: 0.0091 mae: 0.0539
+Elapsed time (sec.): 13.868
+
+Epoch 110/299
+current lr: 0.001
+train loss: 0.0082 mae: 0.0587
+val loss: 0.0121 mae: 0.0764
+Elapsed time (sec.): 16.214
+
+Epoch 111/299
+current lr: 0.001
+train loss: 0.0085 mae: 0.0602
+val loss: 0.0089 mae: 0.0537
+Elapsed time (sec.): 13.922
+
+Epoch 112/299
+current lr: 0.001
+train loss: 0.0096 mae: 0.0640
+val loss: 0.0093 mae: 0.0557
+Elapsed time (sec.): 14.051
+
+Epoch 113/299
+current lr: 0.001
+train loss: 0.0087 mae: 0.0605
+val loss: 0.0092 mae: 0.0581
+Elapsed time (sec.): 16.825
+
+Epoch 114/299
+current lr: 0.001
+train loss: 0.0081 mae: 0.0587
+val loss: 0.0086 mae: 0.0519
+Elapsed time (sec.): 13.860
+
+Epoch 115/299
+current lr: 0.001
+train loss: 0.0087 mae: 0.0606
+val loss: 0.0092 mae: 0.0558
+Elapsed time (sec.): 16.142
+
+Epoch 116/299
+current lr: 0.001
+train loss: 0.0084 mae: 0.0595
+val loss: 0.0088 mae: 0.0532
+Elapsed time (sec.): 13.995
+
+Epoch 117/299
+current lr: 0.001
+train loss: 0.0084 mae: 0.0597
+val loss: 0.0133 mae: 0.0580
+Elapsed time (sec.): 13.868
+
+Epoch 118/299
+current lr: 0.001
+train loss: 0.0082 mae: 0.0589
+val loss: 0.0087 mae: 0.0517
+Elapsed time (sec.): 16.167
+
+Epoch 119/299
+current lr: 0.001
+train loss: 0.0080 mae: 0.0580
+val loss: 0.0093 mae: 0.0536
+Elapsed time (sec.): 13.729
+
+Epoch 120/299
+current lr: 0.001
+train loss: 0.0084 mae: 0.0597
+val loss: 0.0096 mae: 0.0565
+Elapsed time (sec.): 13.820
+
+Epoch 121/299
+current lr: 0.001
+train loss: 0.0082 mae: 0.0592
+val loss: 0.0090 mae: 0.0552
+Elapsed time (sec.): 16.032
+
+Epoch 122/299
+current lr: 0.001
+train loss: 0.0089 mae: 0.0612
+val loss: 0.0101 mae: 0.0583
+Elapsed time (sec.): 13.760
+
+Epoch 123/299
+current lr: 0.001
+train loss: 0.0082 mae: 0.0586
+val loss: 0.0093 mae: 0.0559
+Elapsed time (sec.): 15.815
+
+Epoch 124/299
+current lr: 0.001
+train loss: 0.0081 mae: 0.0581
+val loss: 0.0103 mae: 0.0633
+Elapsed time (sec.): 14.570
+
+Epoch 125/299
+current lr: 0.001
+train loss: 0.0082 mae: 0.0587
+val loss: 0.0095 mae: 0.0564
+Elapsed time (sec.): 13.542
+
+Epoch 126/299
+current lr: 0.001
+train loss: 0.0082 mae: 0.0590
+val loss: 0.0104 mae: 0.0655
+Elapsed time (sec.): 15.804
+
+Epoch 127/299
+current lr: 0.001
+train loss: 0.0080 mae: 0.0581
+val loss: 0.0088 mae: 0.0519
+Elapsed time (sec.): 13.605
+
+Epoch 128/299
+current lr: 0.001
+train loss: 0.0084 mae: 0.0597
+val loss: 0.0105 mae: 0.0618
+Elapsed time (sec.): 16.091
+
+Epoch 129/299
+current lr: 0.001
+train loss: 0.0082 mae: 0.0587
+val loss: 0.0084 mae: 0.0515
+Elapsed time (sec.): 13.571
+
+Epoch 130/299
+current lr: 0.001
+train loss: 0.0080 mae: 0.0581
+val loss: 0.0084 mae: 0.0509
+Elapsed time (sec.): 15.938
+
+Epoch 131/299
+current lr: 0.001
+train loss: 0.0080 mae: 0.0580
+val loss: 0.0085 mae: 0.0509
+Elapsed time (sec.): 13.707
+
+Epoch 132/299
+current lr: 0.001
+train loss: 0.0083 mae: 0.0590
+val loss: 0.0096 mae: 0.0595
+Elapsed time (sec.): 13.611
+
+Epoch 133/299
+current lr: 0.001
+train loss: 0.0083 mae: 0.0593
+val loss: 0.0096 mae: 0.0569
+Elapsed time (sec.): 15.967
+
+Epoch 134/299
+current lr: 0.001
+train loss: 0.0080 mae: 0.0585
+val loss: 0.0092 mae: 0.0547
+Elapsed time (sec.): 13.541
+
+Epoch 135/299
+current lr: 0.001
+train loss: 0.0078 mae: 0.0575
+val loss: 0.0089 mae: 0.0548
+Elapsed time (sec.): 15.978
+
+Epoch 136/299
+current lr: 0.001
+train loss: 0.0094 mae: 0.0622
+val loss: 0.0123 mae: 0.0690
+Elapsed time (sec.): 14.633
+
+Epoch 137/299
+current lr: 0.001
+train loss: 0.0089 mae: 0.0610
+val loss: 0.0107 mae: 0.0671
+Elapsed time (sec.): 13.545
+
+Epoch 138/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0575
+val loss: 0.0092 mae: 0.0582
+Elapsed time (sec.): 16.062
+
+Epoch 139/299
+current lr: 0.001
+train loss: 0.0078 mae: 0.0577
+val loss: 0.0088 mae: 0.0524
+Elapsed time (sec.): 13.781
+
+Epoch 140/299
+current lr: 0.001
+train loss: 0.0084 mae: 0.0594
+val loss: 0.0098 mae: 0.0635
+Elapsed time (sec.): 16.058
+
+Epoch 141/299
+current lr: 0.001
+train loss: 0.0080 mae: 0.0582
+val loss: 0.0087 mae: 0.0529
+Elapsed time (sec.): 13.855
+
+Epoch 142/299
+current lr: 0.001
+train loss: 0.0077 mae: 0.0574
+val loss: 0.0094 mae: 0.0599
+Elapsed time (sec.): 13.754
+
+Epoch 143/299
+current lr: 0.001
+train loss: 0.0076 mae: 0.0565
+val loss: 0.0086 mae: 0.0532
+Elapsed time (sec.): 16.055
+
+Epoch 144/299
+current lr: 0.001
+train loss: 0.0080 mae: 0.0580
+val loss: 0.0089 mae: 0.0534
+Elapsed time (sec.): 13.793
+
+Epoch 145/299
+current lr: 0.001
+train loss: 0.0077 mae: 0.0570
+val loss: 0.0088 mae: 0.0534
+Elapsed time (sec.): 16.040
+
+Epoch 146/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0581
+val loss: 0.0087 mae: 0.0509
+Elapsed time (sec.): 13.821
+
+Epoch 147/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0575
+val loss: 0.0088 mae: 0.0545
+Elapsed time (sec.): 13.687
+
+Epoch 148/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0574
+val loss: 0.0087 mae: 0.0525
+Elapsed time (sec.): 17.077
+
+Epoch 149/299
+current lr: 0.001
+train loss: 0.0080 mae: 0.0584
+val loss: 0.0094 mae: 0.0599
+Elapsed time (sec.): 13.682
+
+Epoch 150/299
+current lr: 0.001
+train loss: 0.0080 mae: 0.0581
+val loss: 0.0090 mae: 0.0547
+Elapsed time (sec.): 16.101
+
+Epoch 151/299
+current lr: 0.001
+train loss: 0.0078 mae: 0.0573
+val loss: 0.0106 mae: 0.0646
+Elapsed time (sec.): 13.785
+
+Epoch 152/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0578
+val loss: 0.0087 mae: 0.0541
+Elapsed time (sec.): 13.829
+
+Epoch 153/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0580
+val loss: 0.0094 mae: 0.0552
+Elapsed time (sec.): 16.045
+
+Epoch 154/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0579
+val loss: 0.0087 mae: 0.0527
+Elapsed time (sec.): 13.846
+
+Epoch 155/299
+current lr: 0.001
+train loss: 0.0076 mae: 0.0571
+val loss: 0.0100 mae: 0.0617
+Elapsed time (sec.): 13.837
+
+Epoch 156/299
+current lr: 0.001
+train loss: 0.0083 mae: 0.0589
+val loss: 0.0143 mae: 0.0729
+Elapsed time (sec.): 15.986
+
+Epoch 157/299
+current lr: 0.001
+train loss: 0.0098 mae: 0.0630
+val loss: 0.0100 mae: 0.0618
+Elapsed time (sec.): 13.779
+
+Epoch 158/299
+current lr: 0.001
+train loss: 0.0078 mae: 0.0571
+val loss: 0.0091 mae: 0.0565
+Elapsed time (sec.): 16.055
+
+Epoch 159/299
+current lr: 0.001
+train loss: 0.0076 mae: 0.0572
+val loss: 0.0087 mae: 0.0534
+Elapsed time (sec.): 13.759
+
+Epoch 160/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0555
+val loss: 0.0082 mae: 0.0491
+Elapsed time (sec.): 14.892
+
+Epoch 161/299
+current lr: 0.001
+train loss: 0.0072 mae: 0.0549
+val loss: 0.0105 mae: 0.0626
+Elapsed time (sec.): 15.929
+
+Epoch 162/299
+current lr: 0.001
+train loss: 0.0075 mae: 0.0567
+val loss: 0.0093 mae: 0.0573
+Elapsed time (sec.): 13.759
+
+Epoch 163/299
+current lr: 0.001
+train loss: 0.0104 mae: 0.0650
+val loss: 0.0100 mae: 0.0558
+Elapsed time (sec.): 15.944
+
+Epoch 164/299
+current lr: 0.001
+train loss: 0.0086 mae: 0.0590
+val loss: 0.0094 mae: 0.0540
+Elapsed time (sec.): 13.805
+
+Epoch 165/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0566
+val loss: 0.0086 mae: 0.0509
+Elapsed time (sec.): 16.032
+
+Epoch 166/299
+current lr: 0.001
+train loss: 0.0078 mae: 0.0577
+val loss: 0.0109 mae: 0.0681
+Elapsed time (sec.): 13.827
+
+Epoch 167/299
+current lr: 0.001
+train loss: 0.0077 mae: 0.0572
+val loss: 0.0102 mae: 0.0641
+Elapsed time (sec.): 13.731
+
+Epoch 168/299
+current lr: 0.001
+train loss: 0.0076 mae: 0.0572
+val loss: 0.0090 mae: 0.0527
+Elapsed time (sec.): 16.058
+
+Epoch 169/299
+current lr: 0.001
+train loss: 0.0076 mae: 0.0568
+val loss: 0.0089 mae: 0.0542
+Elapsed time (sec.): 13.727
+
+Epoch 170/299
+current lr: 0.001
+train loss: 0.0108 mae: 0.0655
+val loss: 0.0113 mae: 0.0673
+Elapsed time (sec.): 16.128
+
+Epoch 171/299
+current lr: 0.001
+train loss: 0.0087 mae: 0.0610
+val loss: 0.0089 mae: 0.0545
+Elapsed time (sec.): 13.818
+
+Epoch 172/299
+current lr: 0.001
+train loss: 0.0078 mae: 0.0580
+val loss: 0.0095 mae: 0.0580
+Elapsed time (sec.): 14.915
+
+Epoch 173/299
+current lr: 0.001
+train loss: 0.0075 mae: 0.0563
+val loss: 0.0093 mae: 0.0548
+Elapsed time (sec.): 16.009
+
+Epoch 174/299
+current lr: 0.001
+train loss: 0.0077 mae: 0.0570
+val loss: 0.0095 mae: 0.0587
+Elapsed time (sec.): 13.761
+
+Epoch 175/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0584
+val loss: 0.0091 mae: 0.0549
+Elapsed time (sec.): 13.783
+
+Epoch 176/299
+current lr: 0.001
+train loss: 0.0078 mae: 0.0574
+val loss: 0.0156 mae: 0.0822
+Elapsed time (sec.): 15.926
+
+Epoch 177/299
+current lr: 0.001
+train loss: 0.0090 mae: 0.0619
+val loss: 0.0091 mae: 0.0538
+Elapsed time (sec.): 13.787
+
+Epoch 178/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0574
+val loss: 0.0086 mae: 0.0523
+Elapsed time (sec.): 16.015
+
+Epoch 179/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0574
+val loss: 0.0084 mae: 0.0513
+Elapsed time (sec.): 13.779
+
+Epoch 180/299
+current lr: 0.001
+train loss: 0.0077 mae: 0.0572
+val loss: 0.0089 mae: 0.0544
+Elapsed time (sec.): 13.940
+
+Epoch 181/299
+current lr: 0.001
+train loss: 0.0075 mae: 0.0562
+val loss: 0.0084 mae: 0.0516
+Elapsed time (sec.): 16.256
+
+Epoch 182/299
+current lr: 0.001
+train loss: 0.0079 mae: 0.0582
+val loss: 0.0094 mae: 0.0548
+Elapsed time (sec.): 13.987
+
+Epoch 183/299
+current lr: 0.001
+train loss: 0.0087 mae: 0.0593
+val loss: 0.0090 mae: 0.0549
+Elapsed time (sec.): 16.298
+
+Epoch 184/299
+current lr: 0.001
+train loss: 0.0077 mae: 0.0567
+val loss: 0.0088 mae: 0.0534
+Elapsed time (sec.): 13.937
+
+Epoch 185/299
+current lr: 0.001
+train loss: 0.0081 mae: 0.0583
+val loss: 0.0097 mae: 0.0607
+Elapsed time (sec.): 16.361
+
+Epoch 186/299
+current lr: 0.001
+train loss: 0.0075 mae: 0.0561
+val loss: 0.0089 mae: 0.0537
+Elapsed time (sec.): 13.837
+
+Epoch 187/299
+current lr: 0.001
+train loss: 0.0076 mae: 0.0566
+val loss: 0.0084 mae: 0.0512
+Elapsed time (sec.): 13.990
+
+Epoch 188/299
+current lr: 0.001
+train loss: 0.0076 mae: 0.0571
+val loss: 0.0097 mae: 0.0578
+Elapsed time (sec.): 16.219
+
+Epoch 189/299
+current lr: 0.001
+train loss: 0.0076 mae: 0.0568
+val loss: 0.0094 mae: 0.0573
+Elapsed time (sec.): 13.971
+
+Epoch 190/299
+current lr: 0.001
+train loss: 0.0075 mae: 0.0567
+val loss: 0.0101 mae: 0.0642
+Elapsed time (sec.): 16.141
+
+Epoch 191/299
+current lr: 0.001
+train loss: 0.0074 mae: 0.0559
+val loss: 0.0089 mae: 0.0535
+Elapsed time (sec.): 13.994
+
+Epoch 192/299
+current lr: 0.001
+train loss: 0.0075 mae: 0.0568
+val loss: 0.0103 mae: 0.0623
+Elapsed time (sec.): 13.877
+
+Epoch 193/299
+current lr: 0.001
+train loss: 0.0075 mae: 0.0566
+val loss: 0.0084 mae: 0.0504
+Elapsed time (sec.): 16.372
+
+Epoch 194/299
+current lr: 0.001
+train loss: 0.0075 mae: 0.0566
+val loss: 0.0095 mae: 0.0568
+Elapsed time (sec.): 13.990
+
+Epoch 195/299
+current lr: 0.001
+train loss: 0.0074 mae: 0.0558
+val loss: 0.0099 mae: 0.0584
+Elapsed time (sec.): 16.391
+
+Epoch 196/299
+current lr: 0.001
+train loss: 0.0076 mae: 0.0569
+val loss: 0.0095 mae: 0.0581
+Elapsed time (sec.): 13.921
+
+Epoch 197/299
+current lr: 0.001
+train loss: 0.0075 mae: 0.0561
+val loss: 0.0090 mae: 0.0545
+Elapsed time (sec.): 13.786
+
+Epoch 198/299
+current lr: 0.001
+train loss: 0.0074 mae: 0.0563
+val loss: 0.0092 mae: 0.0540
+Elapsed time (sec.): 15.845
+
+Epoch 199/299
+current lr: 0.001
+train loss: 0.0074 mae: 0.0563
+val loss: 0.0083 mae: 0.0507
+Elapsed time (sec.): 13.678
+
+Epoch 200/299
+current lr: 0.001
+train loss: 0.0074 mae: 0.0561
+val loss: 0.0097 mae: 0.0580
+Elapsed time (sec.): 15.791
+
+Epoch 201/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0556
+val loss: 0.0104 mae: 0.0588
+Elapsed time (sec.): 13.532
+
+Epoch 202/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0553
+val loss: 0.0091 mae: 0.0564
+Elapsed time (sec.): 13.448
+
+Epoch 203/299
+current lr: 0.001
+train loss: 0.0074 mae: 0.0561
+val loss: 0.0086 mae: 0.0511
+Elapsed time (sec.): 15.789
+
+Epoch 204/299
+current lr: 0.001
+train loss: 0.0076 mae: 0.0572
+val loss: 0.0091 mae: 0.0553
+Elapsed time (sec.): 13.623
+
+Epoch 205/299
+current lr: 0.001
+train loss: 0.0072 mae: 0.0553
+val loss: 0.0085 mae: 0.0508
+Elapsed time (sec.): 15.767
+
+Epoch 206/299
+current lr: 0.001
+train loss: 0.0070 mae: 0.0548
+val loss: 0.0089 mae: 0.0525
+Elapsed time (sec.): 13.568
+
+Epoch 207/299
+current lr: 0.001
+train loss: 0.0076 mae: 0.0573
+val loss: 0.0088 mae: 0.0542
+Elapsed time (sec.): 13.509
+
+Epoch 208/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0557
+val loss: 0.0095 mae: 0.0568
+Elapsed time (sec.): 15.681
+
+Epoch 209/299
+current lr: 0.001
+train loss: 0.0072 mae: 0.0554
+val loss: 0.0092 mae: 0.0564
+Elapsed time (sec.): 13.506
+
+Epoch 210/299
+current lr: 0.001
+train loss: 0.0074 mae: 0.0564
+val loss: 0.0089 mae: 0.0531
+Elapsed time (sec.): 15.923
+
+Epoch 211/299
+current lr: 0.001
+train loss: 0.0070 mae: 0.0544
+val loss: 0.0082 mae: 0.0501
+Elapsed time (sec.): 13.538
+
+Epoch 212/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0564
+val loss: 0.0087 mae: 0.0530
+Elapsed time (sec.): 13.512
+
+Epoch 213/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0563
+val loss: 0.0094 mae: 0.0575
+Elapsed time (sec.): 15.742
+
+Epoch 214/299
+current lr: 0.001
+train loss: 0.0072 mae: 0.0549
+val loss: 0.0088 mae: 0.0519
+Elapsed time (sec.): 13.689
+
+Epoch 215/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0560
+val loss: 0.0085 mae: 0.0516
+Elapsed time (sec.): 15.979
+
+Epoch 216/299
+current lr: 0.001
+train loss: 0.0074 mae: 0.0560
+val loss: 0.0086 mae: 0.0506
+Elapsed time (sec.): 13.513
+
+Epoch 217/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0560
+val loss: 0.0084 mae: 0.0505
+Elapsed time (sec.): 13.484
+
+Epoch 218/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0560
+val loss: 0.0086 mae: 0.0525
+Elapsed time (sec.): 15.906
+
+Epoch 219/299
+current lr: 0.001
+train loss: 0.0071 mae: 0.0553
+val loss: 0.0083 mae: 0.0499
+Elapsed time (sec.): 13.453
+
+Epoch 220/299
+current lr: 0.001
+train loss: 0.0070 mae: 0.0541
+val loss: 0.0088 mae: 0.0532
+Elapsed time (sec.): 13.593
+
+Epoch 221/299
+current lr: 0.001
+train loss: 0.0071 mae: 0.0547
+val loss: 0.0114 mae: 0.0716
+Elapsed time (sec.): 15.764
+
+Epoch 222/299
+current lr: 0.001
+train loss: 0.0071 mae: 0.0550
+val loss: 0.0092 mae: 0.0569
+Elapsed time (sec.): 13.523
+
+Epoch 223/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0565
+val loss: 0.0102 mae: 0.0605
+Elapsed time (sec.): 15.689
+
+Epoch 224/299
+current lr: 0.001
+train loss: 0.0071 mae: 0.0553
+val loss: 0.0091 mae: 0.0525
+Elapsed time (sec.): 13.524
+
+Epoch 225/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0552
+val loss: 0.0090 mae: 0.0513
+Elapsed time (sec.): 15.799
+
+Epoch 226/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0557
+val loss: 0.0095 mae: 0.0574
+Elapsed time (sec.): 13.490
+
+Epoch 227/299
+current lr: 0.001
+train loss: 0.0071 mae: 0.0553
+val loss: 0.0097 mae: 0.0603
+Elapsed time (sec.): 13.550
+
+Epoch 228/299
+current lr: 0.001
+train loss: 0.0071 mae: 0.0551
+val loss: 0.0087 mae: 0.0526
+Elapsed time (sec.): 15.762
+
+Epoch 229/299
+current lr: 0.001
+train loss: 0.0070 mae: 0.0544
+val loss: 0.0083 mae: 0.0497
+Elapsed time (sec.): 13.479
+
+Epoch 230/299
+current lr: 0.001
+train loss: 0.0071 mae: 0.0552
+val loss: 0.0084 mae: 0.0509
+Elapsed time (sec.): 15.826
+
+Epoch 231/299
+current lr: 0.001
+train loss: 0.0073 mae: 0.0555
+val loss: 0.0092 mae: 0.0575
+Elapsed time (sec.): 13.610
+
+Epoch 232/299
+current lr: 0.001
+train loss: 0.0075 mae: 0.0568
+val loss: 0.0095 mae: 0.0580
+Elapsed time (sec.): 13.497
+
+Epoch 233/299
+current lr: 0.001
+train loss: 0.0072 mae: 0.0556
+val loss: 0.0084 mae: 0.0504
+Elapsed time (sec.): 15.755
+
+Epoch 234/299
+current lr: 0.001
+train loss: 0.0069 mae: 0.0542
+val loss: 0.0085 mae: 0.0501
+Elapsed time (sec.): 13.452
+
+Epoch 235/299
+current lr: 0.001
+train loss: 0.0069 mae: 0.0546
+val loss: 0.0088 mae: 0.0522
+Elapsed time (sec.): 13.586
+
+Epoch 236/299
+current lr: 0.001
+train loss: 0.0069 mae: 0.0546
+val loss: 0.0103 mae: 0.0620
+Elapsed time (sec.): 15.792
+
+Epoch 237/299
+current lr: 0.001
+train loss: 0.0069 mae: 0.0545
+val loss: 0.0086 mae: 0.0517
+Elapsed time (sec.): 13.621
+
+Epoch 238/299
+current lr: 0.001
+train loss: 0.0083 mae: 0.0589
+val loss: 0.0100 mae: 0.0545
+Elapsed time (sec.): 15.837
+
+Epoch 239/299
+current lr: 0.001
+train loss: 0.0071 mae: 0.0553
+val loss: 0.0091 mae: 0.0565
+Elapsed time (sec.): 13.631
+
+Epoch 240/299
+current lr: 0.001
+train loss: 0.0067 mae: 0.0537
+val loss: 0.0091 mae: 0.0540
+Elapsed time (sec.): 13.493
+
+Epoch 241/299
+current lr: 0.001
+train loss: 0.0069 mae: 0.0545
+val loss: 0.0086 mae: 0.0528
+Elapsed time (sec.): 15.769
+
+Epoch 242/299
+current lr: 0.001
+train loss: 0.0067 mae: 0.0533
+val loss: 0.0095 mae: 0.0549
+Elapsed time (sec.): 13.415
+
+Epoch 243/299
+current lr: 0.001
+train loss: 0.0071 mae: 0.0555
+val loss: 0.0088 mae: 0.0535
+Elapsed time (sec.): 15.767
+
+Epoch 244/299
+current lr: 0.001
+train loss: 0.0070 mae: 0.0542
+val loss: 0.0084 mae: 0.0509
+Elapsed time (sec.): 13.510
+
+Epoch 245/299
+current lr: 0.001
+train loss: 0.0071 mae: 0.0548
+val loss: 0.0084 mae: 0.0514
+Elapsed time (sec.): 15.846
+
+Epoch 246/299
+current lr: 0.001
+train loss: 0.0069 mae: 0.0544
+val loss: 0.0091 mae: 0.0526
+Elapsed time (sec.): 13.531
+
+Epoch 247/299
+current lr: 0.001
+train loss: 0.0069 mae: 0.0545
+val loss: 0.0094 mae: 0.0553
+Elapsed time (sec.): 13.493
+
+Epoch 248/299
+current lr: 0.001
+train loss: 0.0074 mae: 0.0561
+val loss: 0.0098 mae: 0.0589
+Elapsed time (sec.): 15.760
+
+Epoch 249/299
+current lr: 0.001
+train loss: 0.0072 mae: 0.0555
+val loss: 0.0090 mae: 0.0549
+Elapsed time (sec.): 13.569
+
+Epoch 250/299
+current lr: 0.0001
+train loss: 0.0052 mae: 0.0455
+val loss: 0.0076 mae: 0.0450
+Elapsed time (sec.): 15.827
+
+Epoch 251/299
+current lr: 0.0001
+train loss: 0.0048 mae: 0.0439
+val loss: 0.0073 mae: 0.0435
+Elapsed time (sec.): 13.436
+
+Epoch 252/299
+current lr: 0.0001
+train loss: 0.0046 mae: 0.0433
+val loss: 0.0074 mae: 0.0434
+Elapsed time (sec.): 13.456
+
+Epoch 253/299
+current lr: 0.0001
+train loss: 0.0045 mae: 0.0427
+val loss: 0.0074 mae: 0.0433
+Elapsed time (sec.): 15.621
+
+Epoch 254/299
+current lr: 0.0001
+train loss: 0.0044 mae: 0.0427
+val loss: 0.0074 mae: 0.0433
+Elapsed time (sec.): 13.452
+
+Epoch 255/299
+current lr: 0.0001
+train loss: 0.0044 mae: 0.0426
+val loss: 0.0074 mae: 0.0429
+Elapsed time (sec.): 15.778
+
+Epoch 256/299
+current lr: 0.0001
+train loss: 0.0043 mae: 0.0420
+val loss: 0.0075 mae: 0.0438
+Elapsed time (sec.): 13.537
+
+Epoch 257/299
+current lr: 0.0001
+train loss: 0.0043 mae: 0.0418
+val loss: 0.0073 mae: 0.0427
+Elapsed time (sec.): 13.386
+
+Epoch 258/299
+current lr: 0.0001
+train loss: 0.0043 mae: 0.0421
+val loss: 0.0074 mae: 0.0432
+Elapsed time (sec.): 15.754
+
+Epoch 259/299
+current lr: 0.0001
+train loss: 0.0042 mae: 0.0415
+val loss: 0.0073 mae: 0.0424
+Elapsed time (sec.): 13.363
+
+Epoch 260/299
+current lr: 0.0001
+train loss: 0.0042 mae: 0.0418
+val loss: 0.0074 mae: 0.0426
+Elapsed time (sec.): 15.624
+
+Epoch 261/299
+current lr: 0.0001
+train loss: 0.0042 mae: 0.0414
+val loss: 0.0074 mae: 0.0430
+Elapsed time (sec.): 13.364
+
+Epoch 262/299
+current lr: 0.0001
+train loss: 0.0042 mae: 0.0417
+val loss: 0.0074 mae: 0.0424
+Elapsed time (sec.): 13.331
+
+Epoch 263/299
+current lr: 0.0001
+train loss: 0.0041 mae: 0.0411
+val loss: 0.0074 mae: 0.0426
+Elapsed time (sec.): 15.510
+
+Epoch 264/299
+current lr: 0.0001
+train loss: 0.0041 mae: 0.0410
+val loss: 0.0074 mae: 0.0425
+Elapsed time (sec.): 13.348
+
+Epoch 265/299
+current lr: 0.0001
+train loss: 0.0041 mae: 0.0410
+val loss: 0.0075 mae: 0.0433
+Elapsed time (sec.): 15.621
+
+Epoch 266/299
+current lr: 0.0001
+train loss: 0.0041 mae: 0.0413
+val loss: 0.0074 mae: 0.0431
+Elapsed time (sec.): 13.429
+
+Epoch 267/299
+current lr: 0.0001
+train loss: 0.0040 mae: 0.0408
+val loss: 0.0074 mae: 0.0425
+Elapsed time (sec.): 13.381
+
+Epoch 268/299
+current lr: 0.0001
+train loss: 0.0041 mae: 0.0413
+val loss: 0.0074 mae: 0.0431
+Elapsed time (sec.): 15.541
+
+Epoch 269/299
+current lr: 0.0001
+train loss: 0.0040 mae: 0.0410
+val loss: 0.0076 mae: 0.0439
+Elapsed time (sec.): 13.404
+
+Epoch 270/299
+current lr: 0.0001
+train loss: 0.0040 mae: 0.0408
+val loss: 0.0074 mae: 0.0427
+Elapsed time (sec.): 15.652
+
+Epoch 271/299
+current lr: 0.0001
+train loss: 0.0040 mae: 0.0408
+val loss: 0.0074 mae: 0.0424
+Elapsed time (sec.): 13.498
+
+Epoch 272/299
+current lr: 0.0001
+train loss: 0.0040 mae: 0.0415
+val loss: 0.0076 mae: 0.0436
+Elapsed time (sec.): 13.355
+
+Epoch 273/299
+current lr: 0.0001
+train loss: 0.0040 mae: 0.0408
+val loss: 0.0074 mae: 0.0428
+Elapsed time (sec.): 15.660
+
+Epoch 274/299
+current lr: 0.0001
+train loss: 0.0039 mae: 0.0403
+val loss: 0.0074 mae: 0.0421
+Elapsed time (sec.): 13.362
+
+Epoch 275/299
+current lr: 0.0001
+train loss: 0.0039 mae: 0.0408
+val loss: 0.0074 mae: 0.0423
+Elapsed time (sec.): 15.559
+
+Epoch 276/299
+current lr: 0.0001
+train loss: 0.0039 mae: 0.0405
+val loss: 0.0074 mae: 0.0423
+Elapsed time (sec.): 13.248
+
+Epoch 277/299
+current lr: 0.0001
+train loss: 0.0039 mae: 0.0405
+val loss: 0.0075 mae: 0.0426
+Elapsed time (sec.): 13.402
+
+Epoch 278/299
+current lr: 0.0001
+train loss: 0.0039 mae: 0.0407
+val loss: 0.0076 mae: 0.0429
+Elapsed time (sec.): 15.573
+
+Epoch 279/299
+current lr: 0.0001
+train loss: 0.0039 mae: 0.0410
+val loss: 0.0075 mae: 0.0426
+Elapsed time (sec.): 13.412
+
+Epoch 280/299
+current lr: 0.0001
+train loss: 0.0039 mae: 0.0406
+val loss: 0.0075 mae: 0.0427
+Elapsed time (sec.): 13.475
+
+Epoch 281/299
+current lr: 0.0001
+train loss: 0.0039 mae: 0.0403
+val loss: 0.0075 mae: 0.0427
+Elapsed time (sec.): 15.472
+
+Epoch 282/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0402
+val loss: 0.0075 mae: 0.0424
+Elapsed time (sec.): 13.498
+
+Epoch 283/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0400
+val loss: 0.0074 mae: 0.0423
+Elapsed time (sec.): 15.588
+
+Epoch 284/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0398
+val loss: 0.0075 mae: 0.0428
+Elapsed time (sec.): 13.360
+
+Epoch 285/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0400
+val loss: 0.0075 mae: 0.0423
+Elapsed time (sec.): 15.719
+
+Epoch 286/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0403
+val loss: 0.0075 mae: 0.0426
+Elapsed time (sec.): 13.449
+
+Epoch 287/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0398
+val loss: 0.0076 mae: 0.0433
+Elapsed time (sec.): 13.377
+
+Epoch 288/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0403
+val loss: 0.0075 mae: 0.0428
+Elapsed time (sec.): 15.660
+
+Epoch 289/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0400
+val loss: 0.0075 mae: 0.0424
+Elapsed time (sec.): 13.405
+
+Epoch 290/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0400
+val loss: 0.0077 mae: 0.0439
+Elapsed time (sec.): 15.710
+
+Epoch 291/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0403
+val loss: 0.0076 mae: 0.0423
+Elapsed time (sec.): 13.395
+
+Epoch 292/299
+current lr: 0.0001
+train loss: 0.0037 mae: 0.0393
+val loss: 0.0075 mae: 0.0422
+Elapsed time (sec.): 13.313
+
+Epoch 293/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0400
+val loss: 0.0075 mae: 0.0428
+Elapsed time (sec.): 15.600
+
+Epoch 294/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0404
+val loss: 0.0076 mae: 0.0423
+Elapsed time (sec.): 13.294
+
+Epoch 295/299
+current lr: 0.0001
+train loss: 0.0037 mae: 0.0400
+val loss: 0.0076 mae: 0.0425
+Elapsed time (sec.): 13.403
+
+Epoch 296/299
+current lr: 0.0001
+train loss: 0.0037 mae: 0.0400
+val loss: 0.0076 mae: 0.0429
+Elapsed time (sec.): 15.494
+
+Epoch 297/299
+current lr: 0.0001
+train loss: 0.0038 mae: 0.0402
+val loss: 0.0075 mae: 0.0423
+Elapsed time (sec.): 13.341
+
+Epoch 298/299
+current lr: 0.0001
+train loss: 0.0037 mae: 0.0400
+val loss: 0.0076 mae: 0.0429
+Elapsed time (sec.): 15.680
+
+Epoch 299/299
+current lr: 0.0001
+train loss: 0.0037 mae: 0.0400
+val loss: 0.0076 mae: 0.0425
+Elapsed time (sec.): 13.509
+
+Total elapsed time (sec.): 4407.271
+The best val metric: 0.042138
+
+test loss: 0.0073 mae: 0.0423
+
+END
