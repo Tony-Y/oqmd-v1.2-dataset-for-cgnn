@@ -14,1810 +14,1808 @@ Seed: 12345
 
 test: 55732 train: 449867 val: 56289
 Epoch 0/299
-/usr/local/lib/python3.7/dist-packages/torch/optim/lr_scheduler.py:134: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
-  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
 current lr: 0.001
-train loss: 0.1751 mae: 0.2861
-val loss: 0.0980 mae: 0.2069
-Elapsed time (sec.): 28.128
+train loss: 0.1766 mae: 0.2875
+val loss: 0.1025 mae: 0.2136
+Elapsed time (sec.): 16.347
 
 Epoch 1/299
 current lr: 0.001
-train loss: 0.0736 mae: 0.1916
-val loss: 0.0669 mae: 0.1855
-Elapsed time (sec.): 25.359
+train loss: 0.0763 mae: 0.1950
+val loss: 0.0675 mae: 0.1858
+Elapsed time (sec.): 13.609
 
 Epoch 2/299
 current lr: 0.001
-train loss: 0.0542 mae: 0.1630
-val loss: 0.0424 mae: 0.1405
-Elapsed time (sec.): 25.380
+train loss: 0.0561 mae: 0.1661
+val loss: 0.0449 mae: 0.1462
+Elapsed time (sec.): 14.004
 
 Epoch 3/299
 current lr: 0.001
-train loss: 0.0439 mae: 0.1452
-val loss: 0.0464 mae: 0.1561
-Elapsed time (sec.): 27.601
+train loss: 0.0457 mae: 0.1486
+val loss: 0.0429 mae: 0.1459
+Elapsed time (sec.): 15.459
 
 Epoch 4/299
 current lr: 0.001
-train loss: 0.0380 mae: 0.1343
-val loss: 0.0367 mae: 0.1348
-Elapsed time (sec.): 25.279
+train loss: 0.0395 mae: 0.1374
+val loss: 0.0420 mae: 0.1520
+Elapsed time (sec.): 13.601
 
 Epoch 5/299
 current lr: 0.001
-train loss: 0.0344 mae: 0.1276
-val loss: 0.0385 mae: 0.1438
-Elapsed time (sec.): 27.507
+train loss: 0.0354 mae: 0.1300
+val loss: 0.0364 mae: 0.1387
+Elapsed time (sec.): 15.611
 
 Epoch 6/299
 current lr: 0.001
-train loss: 0.0313 mae: 0.1209
-val loss: 0.0256 mae: 0.1076
-Elapsed time (sec.): 25.152
+train loss: 0.0320 mae: 0.1226
+val loss: 0.0248 mae: 0.1062
+Elapsed time (sec.): 13.386
 
 Epoch 7/299
 current lr: 0.001
-train loss: 0.0284 mae: 0.1146
-val loss: 0.0347 mae: 0.1286
-Elapsed time (sec.): 25.095
+train loss: 0.0288 mae: 0.1154
+val loss: 0.0376 mae: 0.1362
+Elapsed time (sec.): 13.199
 
 Epoch 8/299
 current lr: 0.001
-train loss: 0.0280 mae: 0.1133
-val loss: 0.0222 mae: 0.0986
-Elapsed time (sec.): 27.379
+train loss: 0.0273 mae: 0.1124
+val loss: 0.0234 mae: 0.1015
+Elapsed time (sec.): 15.208
 
 Epoch 9/299
 current lr: 0.001
-train loss: 0.0261 mae: 0.1100
-val loss: 0.0218 mae: 0.1002
-Elapsed time (sec.): 25.139
+train loss: 0.0261 mae: 0.1102
+val loss: 0.0200 mae: 0.0924
+Elapsed time (sec.): 13.186
 
 Epoch 10/299
 current lr: 0.001
-train loss: 0.0240 mae: 0.1050
-val loss: 0.0249 mae: 0.1114
-Elapsed time (sec.): 27.421
+train loss: 0.0242 mae: 0.1054
+val loss: 0.0257 mae: 0.1155
+Elapsed time (sec.): 15.260
 
 Epoch 11/299
 current lr: 0.001
-train loss: 0.0231 mae: 0.1028
-val loss: 0.0182 mae: 0.0864
-Elapsed time (sec.): 25.078
+train loss: 0.0233 mae: 0.1029
+val loss: 0.0186 mae: 0.0887
+Elapsed time (sec.): 13.736
 
 Epoch 12/299
 current lr: 0.001
-train loss: 0.0223 mae: 0.1010
-val loss: 0.0182 mae: 0.0891
-Elapsed time (sec.): 25.057
+train loss: 0.0221 mae: 0.1007
+val loss: 0.0203 mae: 0.0987
+Elapsed time (sec.): 13.200
 
 Epoch 13/299
 current lr: 0.001
-train loss: 0.0207 mae: 0.0967
-val loss: 0.0189 mae: 0.0841
-Elapsed time (sec.): 27.386
+train loss: 0.0213 mae: 0.0980
+val loss: 0.0211 mae: 0.0926
+Elapsed time (sec.): 15.224
 
 Epoch 14/299
 current lr: 0.001
-train loss: 0.0205 mae: 0.0965
-val loss: 0.0163 mae: 0.0808
-Elapsed time (sec.): 25.088
+train loss: 0.0204 mae: 0.0961
+val loss: 0.0175 mae: 0.0850
+Elapsed time (sec.): 13.027
 
 Epoch 15/299
 current lr: 0.001
-train loss: 0.0199 mae: 0.0952
-val loss: 0.0215 mae: 0.1038
-Elapsed time (sec.): 27.424
+train loss: 0.0199 mae: 0.0950
+val loss: 0.0211 mae: 0.1052
+Elapsed time (sec.): 15.263
 
 Epoch 16/299
 current lr: 0.001
-train loss: 0.0196 mae: 0.0937
-val loss: 0.0151 mae: 0.0764
-Elapsed time (sec.): 25.082
+train loss: 0.0187 mae: 0.0919
+val loss: 0.0174 mae: 0.0839
+Elapsed time (sec.): 13.033
 
 Epoch 17/299
 current lr: 0.001
-train loss: 0.0183 mae: 0.0909
-val loss: 0.0164 mae: 0.0827
-Elapsed time (sec.): 24.977
+train loss: 0.0186 mae: 0.0915
+val loss: 0.0191 mae: 0.0911
+Elapsed time (sec.): 13.102
 
 Epoch 18/299
 current lr: 0.001
-train loss: 0.0177 mae: 0.0896
-val loss: 0.0173 mae: 0.0896
-Elapsed time (sec.): 27.282
+train loss: 0.0183 mae: 0.0904
+val loss: 0.0163 mae: 0.0850
+Elapsed time (sec.): 15.148
 
 Epoch 19/299
 current lr: 0.001
-train loss: 0.0174 mae: 0.0889
-val loss: 0.0173 mae: 0.0912
-Elapsed time (sec.): 25.039
+train loss: 0.0171 mae: 0.0880
+val loss: 0.0164 mae: 0.0868
+Elapsed time (sec.): 13.090
 
 Epoch 20/299
 current lr: 0.001
-train loss: 0.0170 mae: 0.0879
-val loss: 0.0145 mae: 0.0762
-Elapsed time (sec.): 27.393
+train loss: 0.0169 mae: 0.0876
+val loss: 0.0147 mae: 0.0769
+Elapsed time (sec.): 15.230
 
 Epoch 21/299
 current lr: 0.001
-train loss: 0.0163 mae: 0.0855
-val loss: 0.0134 mae: 0.0726
-Elapsed time (sec.): 24.958
+train loss: 0.0163 mae: 0.0853
+val loss: 0.0143 mae: 0.0751
+Elapsed time (sec.): 13.845
 
 Epoch 22/299
 current lr: 0.001
 train loss: 0.0161 mae: 0.0855
-val loss: 0.0132 mae: 0.0701
-Elapsed time (sec.): 24.957
+val loss: 0.0129 mae: 0.0701
+Elapsed time (sec.): 13.366
 
 Epoch 23/299
 current lr: 0.001
-train loss: 0.0163 mae: 0.0855
-val loss: 0.0125 mae: 0.0677
-Elapsed time (sec.): 27.327
+train loss: 0.0160 mae: 0.0847
+val loss: 0.0122 mae: 0.0659
+Elapsed time (sec.): 15.364
 
 Epoch 24/299
 current lr: 0.001
-train loss: 0.0171 mae: 0.0878
-val loss: 0.0155 mae: 0.0857
-Elapsed time (sec.): 25.005
+train loss: 0.0155 mae: 0.0840
+val loss: 0.0137 mae: 0.0751
+Elapsed time (sec.): 13.325
 
 Epoch 25/299
 current lr: 0.001
-train loss: 0.0154 mae: 0.0834
-val loss: 0.0136 mae: 0.0734
-Elapsed time (sec.): 27.380
+train loss: 0.0153 mae: 0.0832
+val loss: 0.0146 mae: 0.0787
+Elapsed time (sec.): 13.434
 
 Epoch 26/299
 current lr: 0.001
-train loss: 0.0148 mae: 0.0813
-val loss: 0.0127 mae: 0.0686
-Elapsed time (sec.): 25.022
+train loss: 0.0150 mae: 0.0820
+val loss: 0.0130 mae: 0.0701
+Elapsed time (sec.): 15.607
 
 Epoch 27/299
 current lr: 0.001
-train loss: 0.0150 mae: 0.0822
-val loss: 0.0150 mae: 0.0827
-Elapsed time (sec.): 24.998
+train loss: 0.0155 mae: 0.0838
+val loss: 0.0155 mae: 0.0829
+Elapsed time (sec.): 13.121
 
 Epoch 28/299
 current lr: 0.001
-train loss: 0.0142 mae: 0.0794
-val loss: 0.0110 mae: 0.0629
-Elapsed time (sec.): 27.241
+train loss: 0.0144 mae: 0.0797
+val loss: 0.0116 mae: 0.0649
+Elapsed time (sec.): 15.337
 
 Epoch 29/299
 current lr: 0.001
-train loss: 0.0143 mae: 0.0804
-val loss: 0.0114 mae: 0.0666
-Elapsed time (sec.): 24.954
+train loss: 0.0141 mae: 0.0799
+val loss: 0.0114 mae: 0.0652
+Elapsed time (sec.): 13.243
 
 Epoch 30/299
 current lr: 0.001
-train loss: 0.0136 mae: 0.0775
-val loss: 0.0114 mae: 0.0644
-Elapsed time (sec.): 27.342
+train loss: 0.0134 mae: 0.0770
+val loss: 0.0115 mae: 0.0663
+Elapsed time (sec.): 13.178
 
 Epoch 31/299
 current lr: 0.001
-train loss: 0.0136 mae: 0.0775
-val loss: 0.0123 mae: 0.0696
-Elapsed time (sec.): 24.949
+train loss: 0.0132 mae: 0.0765
+val loss: 0.0122 mae: 0.0696
+Elapsed time (sec.): 15.861
 
 Epoch 32/299
 current lr: 0.001
-train loss: 0.0140 mae: 0.0797
-val loss: 0.0112 mae: 0.0657
-Elapsed time (sec.): 24.978
+train loss: 0.0137 mae: 0.0792
+val loss: 0.0116 mae: 0.0683
+Elapsed time (sec.): 13.118
 
 Epoch 33/299
 current lr: 0.001
-train loss: 0.0133 mae: 0.0763
-val loss: 0.0114 mae: 0.0659
-Elapsed time (sec.): 27.170
+train loss: 0.0134 mae: 0.0765
+val loss: 0.0116 mae: 0.0673
+Elapsed time (sec.): 15.275
 
 Epoch 34/299
 current lr: 0.001
-train loss: 0.0134 mae: 0.0781
-val loss: 0.0113 mae: 0.0655
-Elapsed time (sec.): 25.038
+train loss: 0.0135 mae: 0.0781
+val loss: 0.0114 mae: 0.0657
+Elapsed time (sec.): 13.384
 
 Epoch 35/299
 current lr: 0.001
-train loss: 0.0130 mae: 0.0758
-val loss: 0.0123 mae: 0.0726
-Elapsed time (sec.): 27.372
+train loss: 0.0127 mae: 0.0750
+val loss: 0.0122 mae: 0.0721
+Elapsed time (sec.): 13.397
 
 Epoch 36/299
 current lr: 0.001
-train loss: 0.0129 mae: 0.0759
-val loss: 0.0109 mae: 0.0642
-Elapsed time (sec.): 25.028
+train loss: 0.0128 mae: 0.0756
+val loss: 0.0114 mae: 0.0655
+Elapsed time (sec.): 15.082
 
 Epoch 37/299
 current lr: 0.001
-train loss: 0.0125 mae: 0.0742
-val loss: 0.0144 mae: 0.0818
-Elapsed time (sec.): 24.975
+train loss: 0.0125 mae: 0.0740
+val loss: 0.0150 mae: 0.0832
+Elapsed time (sec.): 13.155
 
 Epoch 38/299
 current lr: 0.001
-train loss: 0.0127 mae: 0.0752
-val loss: 0.0115 mae: 0.0697
-Elapsed time (sec.): 27.302
+train loss: 0.0125 mae: 0.0747
+val loss: 0.0114 mae: 0.0684
+Elapsed time (sec.): 15.135
 
 Epoch 39/299
 current lr: 0.001
-train loss: 0.0122 mae: 0.0731
-val loss: 0.0106 mae: 0.0645
-Elapsed time (sec.): 25.003
+train loss: 0.0124 mae: 0.0736
+val loss: 0.0109 mae: 0.0640
+Elapsed time (sec.): 13.167
 
 Epoch 40/299
 current lr: 0.001
-train loss: 0.0124 mae: 0.0739
-val loss: 0.0118 mae: 0.0693
-Elapsed time (sec.): 27.283
+train loss: 0.0123 mae: 0.0733
+val loss: 0.0118 mae: 0.0688
+Elapsed time (sec.): 15.118
 
 Epoch 41/299
 current lr: 0.001
-train loss: 0.0123 mae: 0.0740
-val loss: 0.0103 mae: 0.0603
-Elapsed time (sec.): 25.066
+train loss: 0.0122 mae: 0.0738
+val loss: 0.0107 mae: 0.0626
+Elapsed time (sec.): 13.682
 
 Epoch 42/299
 current lr: 0.001
-train loss: 0.0119 mae: 0.0723
-val loss: 0.0137 mae: 0.0802
-Elapsed time (sec.): 25.000
+train loss: 0.0117 mae: 0.0718
+val loss: 0.0131 mae: 0.0745
+Elapsed time (sec.): 13.085
 
 Epoch 43/299
 current lr: 0.001
 train loss: 0.0116 mae: 0.0711
-val loss: 0.0099 mae: 0.0589
-Elapsed time (sec.): 27.278
+val loss: 0.0102 mae: 0.0586
+Elapsed time (sec.): 15.132
 
 Epoch 44/299
 current lr: 0.001
-train loss: 0.0118 mae: 0.0723
-val loss: 0.0111 mae: 0.0649
-Elapsed time (sec.): 24.924
+train loss: 0.0117 mae: 0.0719
+val loss: 0.0100 mae: 0.0583
+Elapsed time (sec.): 13.209
 
 Epoch 45/299
 current lr: 0.001
-train loss: 0.0119 mae: 0.0731
-val loss: 0.0160 mae: 0.0936
-Elapsed time (sec.): 27.353
+train loss: 0.0124 mae: 0.0744
+val loss: 0.0137 mae: 0.0828
+Elapsed time (sec.): 15.091
 
 Epoch 46/299
 current lr: 0.001
-train loss: 0.0116 mae: 0.0715
-val loss: 0.0098 mae: 0.0585
-Elapsed time (sec.): 24.989
+train loss: 0.0115 mae: 0.0712
+val loss: 0.0103 mae: 0.0599
+Elapsed time (sec.): 13.104
 
 Epoch 47/299
 current lr: 0.001
-train loss: 0.0116 mae: 0.0720
-val loss: 0.0097 mae: 0.0572
-Elapsed time (sec.): 24.987
+train loss: 0.0117 mae: 0.0720
+val loss: 0.0097 mae: 0.0584
+Elapsed time (sec.): 12.938
 
 Epoch 48/299
 current lr: 0.001
-train loss: 0.0113 mae: 0.0702
-val loss: 0.0099 mae: 0.0594
-Elapsed time (sec.): 27.338
+train loss: 0.0114 mae: 0.0705
+val loss: 0.0103 mae: 0.0598
+Elapsed time (sec.): 15.099
 
 Epoch 49/299
 current lr: 0.001
-train loss: 0.0111 mae: 0.0694
-val loss: 0.0124 mae: 0.0739
-Elapsed time (sec.): 24.956
+train loss: 0.0110 mae: 0.0690
+val loss: 0.0131 mae: 0.0777
+Elapsed time (sec.): 13.073
 
 Epoch 50/299
 current lr: 0.001
-train loss: 0.0110 mae: 0.0691
-val loss: 0.0138 mae: 0.0746
-Elapsed time (sec.): 25.041
+train loss: 0.0109 mae: 0.0687
+val loss: 0.0127 mae: 0.0773
+Elapsed time (sec.): 13.033
 
 Epoch 51/299
 current lr: 0.001
-train loss: 0.0110 mae: 0.0693
-val loss: 0.0098 mae: 0.0584
-Elapsed time (sec.): 27.220
+train loss: 0.0109 mae: 0.0688
+val loss: 0.0094 mae: 0.0565
+Elapsed time (sec.): 15.712
 
 Epoch 52/299
 current lr: 0.001
-train loss: 0.0106 mae: 0.0676
-val loss: 0.0127 mae: 0.0743
-Elapsed time (sec.): 24.859
+train loss: 0.0105 mae: 0.0674
+val loss: 0.0119 mae: 0.0713
+Elapsed time (sec.): 13.198
 
 Epoch 53/299
 current lr: 0.001
-train loss: 0.0114 mae: 0.0704
-val loss: 0.0097 mae: 0.0577
-Elapsed time (sec.): 27.255
+train loss: 0.0109 mae: 0.0689
+val loss: 0.0103 mae: 0.0608
+Elapsed time (sec.): 15.107
 
 Epoch 54/299
 current lr: 0.001
-train loss: 0.0109 mae: 0.0685
-val loss: 0.0101 mae: 0.0576
-Elapsed time (sec.): 24.917
+train loss: 0.0106 mae: 0.0675
+val loss: 0.0097 mae: 0.0565
+Elapsed time (sec.): 12.947
 
 Epoch 55/299
 current lr: 0.001
-train loss: 0.0107 mae: 0.0689
-val loss: 0.0104 mae: 0.0652
-Elapsed time (sec.): 24.954
+train loss: 0.0110 mae: 0.0694
+val loss: 0.0107 mae: 0.0655
+Elapsed time (sec.): 15.155
 
 Epoch 56/299
 current lr: 0.001
-train loss: 0.0106 mae: 0.0682
-val loss: 0.0096 mae: 0.0577
-Elapsed time (sec.): 27.213
+train loss: 0.0106 mae: 0.0679
+val loss: 0.0095 mae: 0.0560
+Elapsed time (sec.): 13.091
 
 Epoch 57/299
 current lr: 0.001
-train loss: 0.0120 mae: 0.0721
-val loss: 0.0131 mae: 0.0788
-Elapsed time (sec.): 25.044
+train loss: 0.0106 mae: 0.0683
+val loss: 0.0131 mae: 0.0810
+Elapsed time (sec.): 13.004
 
 Epoch 58/299
 current lr: 0.001
-train loss: 0.0113 mae: 0.0691
-val loss: 0.0111 mae: 0.0648
-Elapsed time (sec.): 27.288
+train loss: 0.0104 mae: 0.0668
+val loss: 0.0097 mae: 0.0572
+Elapsed time (sec.): 15.020
 
 Epoch 59/299
 current lr: 0.001
-train loss: 0.0109 mae: 0.0682
-val loss: 0.0098 mae: 0.0589
-Elapsed time (sec.): 24.968
+train loss: 0.0620 mae: 0.1261
+val loss: 0.2325 mae: 0.3341
+Elapsed time (sec.): 13.030
 
 Epoch 60/299
 current lr: 0.001
-train loss: 0.0106 mae: 0.0676
-val loss: 0.0104 mae: 0.0627
-Elapsed time (sec.): 27.308
+train loss: 0.0459 mae: 0.1446
+val loss: 0.0697 mae: 0.1874
+Elapsed time (sec.): 15.007
 
 Epoch 61/299
 current lr: 0.001
-train loss: 0.0103 mae: 0.0667
-val loss: 0.0100 mae: 0.0586
-Elapsed time (sec.): 24.961
+train loss: 0.0212 mae: 0.0976
+val loss: 0.0153 mae: 0.0785
+Elapsed time (sec.): 13.725
 
 Epoch 62/299
 current lr: 0.001
-train loss: 0.0103 mae: 0.0665
-val loss: 0.0100 mae: 0.0602
-Elapsed time (sec.): 25.023
+train loss: 0.0167 mae: 0.0860
+val loss: 0.0142 mae: 0.0760
+Elapsed time (sec.): 12.919
 
 Epoch 63/299
 current lr: 0.001
-train loss: 0.0103 mae: 0.0673
-val loss: 0.0132 mae: 0.0810
-Elapsed time (sec.): 27.175
+train loss: 0.0149 mae: 0.0814
+val loss: 0.0146 mae: 0.0819
+Elapsed time (sec.): 14.981
 
 Epoch 64/299
 current lr: 0.001
-train loss: 0.0101 mae: 0.0663
-val loss: 0.0106 mae: 0.0676
-Elapsed time (sec.): 24.962
+train loss: 0.0133 mae: 0.0762
+val loss: 0.0127 mae: 0.0771
+Elapsed time (sec.): 13.005
 
 Epoch 65/299
 current lr: 0.001
-train loss: 0.0100 mae: 0.0656
-val loss: 0.0097 mae: 0.0575
-Elapsed time (sec.): 27.228
+train loss: 0.0126 mae: 0.0740
+val loss: 0.0107 mae: 0.0612
+Elapsed time (sec.): 13.014
 
 Epoch 66/299
 current lr: 0.001
-train loss: 0.0099 mae: 0.0650
-val loss: 0.0092 mae: 0.0555
-Elapsed time (sec.): 24.896
+train loss: 0.0118 mae: 0.0711
+val loss: 0.0100 mae: 0.0594
+Elapsed time (sec.): 14.895
 
 Epoch 67/299
 current lr: 0.001
-train loss: 0.0107 mae: 0.0675
-val loss: 0.0096 mae: 0.0569
-Elapsed time (sec.): 24.955
+train loss: 0.0117 mae: 0.0709
+val loss: 0.0114 mae: 0.0628
+Elapsed time (sec.): 13.018
 
 Epoch 68/299
 current lr: 0.001
-train loss: 0.0101 mae: 0.0658
-val loss: 0.0091 mae: 0.0538
-Elapsed time (sec.): 27.255
+train loss: 0.0115 mae: 0.0704
+val loss: 0.0100 mae: 0.0603
+Elapsed time (sec.): 15.018
 
 Epoch 69/299
 current lr: 0.001
-train loss: 0.0098 mae: 0.0650
-val loss: 0.0090 mae: 0.0555
-Elapsed time (sec.): 24.933
+train loss: 0.0111 mae: 0.0691
+val loss: 0.0098 mae: 0.0569
+Elapsed time (sec.): 12.941
 
 Epoch 70/299
 current lr: 0.001
-train loss: 0.0102 mae: 0.0670
-val loss: 0.0098 mae: 0.0591
-Elapsed time (sec.): 24.972
+train loss: 0.0111 mae: 0.0698
+val loss: 0.0100 mae: 0.0581
+Elapsed time (sec.): 15.152
 
 Epoch 71/299
 current lr: 0.001
-train loss: 0.0097 mae: 0.0649
-val loss: 0.0096 mae: 0.0598
-Elapsed time (sec.): 27.245
+train loss: 0.0111 mae: 0.0688
+val loss: 0.0105 mae: 0.0638
+Elapsed time (sec.): 13.671
 
 Epoch 72/299
 current lr: 0.001
-train loss: 0.0095 mae: 0.0632
-val loss: 0.0094 mae: 0.0556
-Elapsed time (sec.): 24.901
+train loss: 0.0104 mae: 0.0660
+val loss: 0.0096 mae: 0.0572
+Elapsed time (sec.): 13.155
 
 Epoch 73/299
 current lr: 0.001
-train loss: 0.0099 mae: 0.0654
-val loss: 0.0089 mae: 0.0545
-Elapsed time (sec.): 27.278
+train loss: 0.0107 mae: 0.0677
+val loss: 0.0093 mae: 0.0558
+Elapsed time (sec.): 15.191
 
 Epoch 74/299
 current lr: 0.001
-train loss: 0.0098 mae: 0.0649
-val loss: 0.0109 mae: 0.0695
-Elapsed time (sec.): 25.105
+train loss: 0.0105 mae: 0.0668
+val loss: 0.0117 mae: 0.0750
+Elapsed time (sec.): 13.039
 
 Epoch 75/299
 current lr: 0.001
-train loss: 0.0095 mae: 0.0637
-val loss: 0.0099 mae: 0.0622
-Elapsed time (sec.): 24.955
+train loss: 0.0100 mae: 0.0650
+val loss: 0.0093 mae: 0.0574
+Elapsed time (sec.): 14.980
 
 Epoch 76/299
 current lr: 0.001
-train loss: 0.0093 mae: 0.0627
-val loss: 0.0093 mae: 0.0555
-Elapsed time (sec.): 27.357
+train loss: 0.0100 mae: 0.0652
+val loss: 0.0095 mae: 0.0562
+Elapsed time (sec.): 12.957
 
 Epoch 77/299
 current lr: 0.001
-train loss: 0.0094 mae: 0.0634
-val loss: 0.0093 mae: 0.0562
-Elapsed time (sec.): 25.006
+train loss: 0.0100 mae: 0.0651
+val loss: 0.0098 mae: 0.0594
+Elapsed time (sec.): 12.963
 
 Epoch 78/299
 current lr: 0.001
-train loss: 0.0095 mae: 0.0639
-val loss: 0.0107 mae: 0.0650
-Elapsed time (sec.): 27.394
+train loss: 0.0100 mae: 0.0653
+val loss: 0.0112 mae: 0.0652
+Elapsed time (sec.): 14.966
 
 Epoch 79/299
 current lr: 0.001
-train loss: 0.0092 mae: 0.0623
-val loss: 0.0096 mae: 0.0585
-Elapsed time (sec.): 24.998
+train loss: 0.0097 mae: 0.0638
+val loss: 0.0093 mae: 0.0581
+Elapsed time (sec.): 13.035
 
 Epoch 80/299
 current lr: 0.001
-train loss: 0.0093 mae: 0.0632
-val loss: 0.0104 mae: 0.0633
-Elapsed time (sec.): 27.528
+train loss: 0.0100 mae: 0.0649
+val loss: 0.0103 mae: 0.0624
+Elapsed time (sec.): 15.015
 
 Epoch 81/299
 current lr: 0.001
-train loss: 0.0091 mae: 0.0623
-val loss: 0.0101 mae: 0.0611
-Elapsed time (sec.): 25.153
+train loss: 0.0098 mae: 0.0642
+val loss: 0.0094 mae: 0.0583
+Elapsed time (sec.): 13.623
 
 Epoch 82/299
 current lr: 0.001
-train loss: 0.0091 mae: 0.0621
-val loss: 0.0091 mae: 0.0541
-Elapsed time (sec.): 25.073
+train loss: 0.0095 mae: 0.0631
+val loss: 0.0099 mae: 0.0571
+Elapsed time (sec.): 13.015
 
 Epoch 83/299
 current lr: 0.001
-train loss: 0.0108 mae: 0.0677
-val loss: 0.0100 mae: 0.0595
-Elapsed time (sec.): 27.331
+train loss: 0.0097 mae: 0.0641
+val loss: 0.0101 mae: 0.0566
+Elapsed time (sec.): 14.950
 
 Epoch 84/299
 current lr: 0.001
-train loss: 0.0093 mae: 0.0628
-val loss: 0.0091 mae: 0.0552
-Elapsed time (sec.): 25.038
+train loss: 0.0094 mae: 0.0628
+val loss: 0.0097 mae: 0.0583
+Elapsed time (sec.): 12.918
 
 Epoch 85/299
 current lr: 0.001
-train loss: 0.0088 mae: 0.0611
-val loss: 0.0091 mae: 0.0551
-Elapsed time (sec.): 27.457
+train loss: 0.0094 mae: 0.0626
+val loss: 0.0094 mae: 0.0575
+Elapsed time (sec.): 15.082
 
 Epoch 86/299
 current lr: 0.001
-train loss: 0.0088 mae: 0.0612
-val loss: 0.0089 mae: 0.0551
-Elapsed time (sec.): 25.075
+train loss: 0.0098 mae: 0.0643
+val loss: 0.0093 mae: 0.0571
+Elapsed time (sec.): 13.053
 
 Epoch 87/299
 current lr: 0.001
-train loss: 0.0090 mae: 0.0619
-val loss: 0.0108 mae: 0.0685
-Elapsed time (sec.): 25.105
+train loss: 0.0091 mae: 0.0616
+val loss: 0.0092 mae: 0.0576
+Elapsed time (sec.): 12.983
 
 Epoch 88/299
 current lr: 0.001
-train loss: 0.0089 mae: 0.0613
-val loss: 0.0090 mae: 0.0547
-Elapsed time (sec.): 27.389
+train loss: 0.0092 mae: 0.0623
+val loss: 0.0091 mae: 0.0559
+Elapsed time (sec.): 15.067
 
 Epoch 89/299
 current lr: 0.001
-train loss: 0.0086 mae: 0.0602
-val loss: 0.0102 mae: 0.0651
-Elapsed time (sec.): 25.050
+train loss: 0.0090 mae: 0.0612
+val loss: 0.0098 mae: 0.0625
+Elapsed time (sec.): 13.094
 
 Epoch 90/299
 current lr: 0.001
-train loss: 0.0089 mae: 0.0618
-val loss: 0.0104 mae: 0.0603
-Elapsed time (sec.): 27.426
+train loss: 0.0091 mae: 0.0624
+val loss: 0.0108 mae: 0.0660
+Elapsed time (sec.): 15.159
 
 Epoch 91/299
 current lr: 0.001
-train loss: 0.0112 mae: 0.0671
-val loss: 0.0093 mae: 0.0558
-Elapsed time (sec.): 24.973
+train loss: 0.0092 mae: 0.0625
+val loss: 0.0096 mae: 0.0576
+Elapsed time (sec.): 13.828
 
 Epoch 92/299
 current lr: 0.001
-train loss: 0.0087 mae: 0.0603
-val loss: 0.0107 mae: 0.0688
-Elapsed time (sec.): 24.951
+train loss: 0.0093 mae: 0.0622
+val loss: 0.0134 mae: 0.0835
+Elapsed time (sec.): 13.019
 
 Epoch 93/299
 current lr: 0.001
-train loss: 0.0088 mae: 0.0616
-val loss: 0.0095 mae: 0.0581
-Elapsed time (sec.): 27.288
+train loss: 0.0092 mae: 0.0627
+val loss: 0.0095 mae: 0.0587
+Elapsed time (sec.): 14.849
 
 Epoch 94/299
 current lr: 0.001
-train loss: 0.0088 mae: 0.0616
-val loss: 0.0090 mae: 0.0548
-Elapsed time (sec.): 24.919
+train loss: 0.0092 mae: 0.0627
+val loss: 0.0089 mae: 0.0546
+Elapsed time (sec.): 13.081
 
 Epoch 95/299
 current lr: 0.001
-train loss: 0.0088 mae: 0.0614
-val loss: 0.0087 mae: 0.0533
-Elapsed time (sec.): 27.316
+train loss: 0.0091 mae: 0.0619
+val loss: 0.0088 mae: 0.0521
+Elapsed time (sec.): 15.133
 
 Epoch 96/299
 current lr: 0.001
-train loss: 0.0086 mae: 0.0601
-val loss: 0.0117 mae: 0.0744
-Elapsed time (sec.): 24.975
+train loss: 0.0086 mae: 0.0600
+val loss: 0.0117 mae: 0.0756
+Elapsed time (sec.): 13.040
 
 Epoch 97/299
 current lr: 0.001
-train loss: 0.0087 mae: 0.0609
-val loss: 0.0100 mae: 0.0609
-Elapsed time (sec.): 24.965
+train loss: 0.0089 mae: 0.0614
+val loss: 0.0099 mae: 0.0580
+Elapsed time (sec.): 12.967
 
 Epoch 98/299
 current lr: 0.001
-train loss: 0.0088 mae: 0.0613
-val loss: 0.0087 mae: 0.0540
-Elapsed time (sec.): 27.253
+train loss: 0.0090 mae: 0.0614
+val loss: 0.0091 mae: 0.0558
+Elapsed time (sec.): 14.938
 
 Epoch 99/299
 current lr: 0.001
-train loss: 0.0090 mae: 0.0616
-val loss: 0.0115 mae: 0.0703
-Elapsed time (sec.): 24.947
+train loss: 0.0089 mae: 0.0614
+val loss: 0.0117 mae: 0.0735
+Elapsed time (sec.): 12.928
 
 Epoch 100/299
 current lr: 0.001
-train loss: 0.0093 mae: 0.0630
-val loss: 0.0091 mae: 0.0565
-Elapsed time (sec.): 27.213
+train loss: 0.0087 mae: 0.0608
+val loss: 0.0088 mae: 0.0530
+Elapsed time (sec.): 12.919
 
 Epoch 101/299
 current lr: 0.001
-train loss: 0.0091 mae: 0.0620
-val loss: 0.0098 mae: 0.0582
-Elapsed time (sec.): 24.887
+train loss: 0.0092 mae: 0.0621
+val loss: 0.0101 mae: 0.0594
+Elapsed time (sec.): 15.544
 
 Epoch 102/299
 current lr: 0.001
-train loss: 0.0088 mae: 0.0612
-val loss: 0.0093 mae: 0.0551
-Elapsed time (sec.): 24.913
+train loss: 0.0092 mae: 0.0625
+val loss: 0.0093 mae: 0.0571
+Elapsed time (sec.): 12.995
 
 Epoch 103/299
 current lr: 0.001
-train loss: 0.0086 mae: 0.0603
-val loss: 0.0089 mae: 0.0539
-Elapsed time (sec.): 27.254
+train loss: 0.0087 mae: 0.0601
+val loss: 0.0090 mae: 0.0549
+Elapsed time (sec.): 15.039
 
 Epoch 104/299
 current lr: 0.001
-train loss: 0.0087 mae: 0.0603
-val loss: 0.0088 mae: 0.0536
-Elapsed time (sec.): 24.909
+train loss: 0.0086 mae: 0.0599
+val loss: 0.0090 mae: 0.0537
+Elapsed time (sec.): 13.004
 
 Epoch 105/299
 current lr: 0.001
-train loss: 0.0085 mae: 0.0600
-val loss: 0.0085 mae: 0.0524
-Elapsed time (sec.): 27.199
+train loss: 0.0086 mae: 0.0599
+val loss: 0.0087 mae: 0.0538
+Elapsed time (sec.): 15.079
 
 Epoch 106/299
 current lr: 0.001
-train loss: 0.0086 mae: 0.0609
-val loss: 0.0095 mae: 0.0569
-Elapsed time (sec.): 24.921
+train loss: 0.0087 mae: 0.0609
+val loss: 0.0093 mae: 0.0548
+Elapsed time (sec.): 12.914
 
 Epoch 107/299
 current lr: 0.001
-train loss: 0.0087 mae: 0.0609
-val loss: 0.0094 mae: 0.0573
-Elapsed time (sec.): 24.911
+train loss: 0.0190 mae: 0.0842
+val loss: 0.0101 mae: 0.0587
+Elapsed time (sec.): 12.980
 
 Epoch 108/299
 current lr: 0.001
-train loss: 0.0086 mae: 0.0602
-val loss: 0.0089 mae: 0.0548
-Elapsed time (sec.): 27.158
+train loss: 0.0103 mae: 0.0659
+val loss: 0.0094 mae: 0.0564
+Elapsed time (sec.): 15.044
 
 Epoch 109/299
 current lr: 0.001
-train loss: 0.0086 mae: 0.0600
-val loss: 0.0088 mae: 0.0529
-Elapsed time (sec.): 24.810
+train loss: 0.0091 mae: 0.0616
+val loss: 0.0095 mae: 0.0568
+Elapsed time (sec.): 12.975
 
 Epoch 110/299
 current lr: 0.001
-train loss: 0.0085 mae: 0.0591
-val loss: 0.0103 mae: 0.0667
-Elapsed time (sec.): 27.235
+train loss: 0.0085 mae: 0.0594
+val loss: 0.0105 mae: 0.0674
+Elapsed time (sec.): 15.085
 
 Epoch 111/299
 current lr: 0.001
-train loss: 0.0086 mae: 0.0605
-val loss: 0.0089 mae: 0.0534
-Elapsed time (sec.): 24.840
+train loss: 0.0086 mae: 0.0601
+val loss: 0.0088 mae: 0.0539
+Elapsed time (sec.): 13.615
 
 Epoch 112/299
 current lr: 0.001
-train loss: 0.0085 mae: 0.0605
-val loss: 0.0086 mae: 0.0539
-Elapsed time (sec.): 24.860
+train loss: 0.0086 mae: 0.0601
+val loss: 0.0087 mae: 0.0530
+Elapsed time (sec.): 13.030
 
 Epoch 113/299
 current lr: 0.001
-train loss: 0.0085 mae: 0.0600
-val loss: 0.0095 mae: 0.0593
-Elapsed time (sec.): 27.268
+train loss: 0.0089 mae: 0.0606
+val loss: 0.0122 mae: 0.0725
+Elapsed time (sec.): 14.974
 
 Epoch 114/299
 current lr: 0.001
-train loss: 0.0083 mae: 0.0596
-val loss: 0.0088 mae: 0.0536
-Elapsed time (sec.): 24.968
+train loss: 0.0090 mae: 0.0612
+val loss: 0.0089 mae: 0.0545
+Elapsed time (sec.): 12.974
 
 Epoch 115/299
 current lr: 0.001
-train loss: 0.0084 mae: 0.0600
-val loss: 0.0087 mae: 0.0557
-Elapsed time (sec.): 25.040
+train loss: 0.0085 mae: 0.0598
+val loss: 0.0086 mae: 0.0531
+Elapsed time (sec.): 14.981
 
 Epoch 116/299
 current lr: 0.001
-train loss: 0.0084 mae: 0.0598
-val loss: 0.0089 mae: 0.0536
-Elapsed time (sec.): 27.436
+train loss: 0.0084 mae: 0.0594
+val loss: 0.0089 mae: 0.0532
+Elapsed time (sec.): 12.993
 
 Epoch 117/299
 current lr: 0.001
-train loss: 0.0085 mae: 0.0600
-val loss: 0.0089 mae: 0.0548
-Elapsed time (sec.): 24.907
+train loss: 0.0085 mae: 0.0599
+val loss: 0.0086 mae: 0.0525
+Elapsed time (sec.): 12.881
 
 Epoch 118/299
 current lr: 0.001
-train loss: 0.0084 mae: 0.0595
-val loss: 0.0084 mae: 0.0511
-Elapsed time (sec.): 27.276
+train loss: 0.0084 mae: 0.0591
+val loss: 0.0087 mae: 0.0527
+Elapsed time (sec.): 15.135
 
 Epoch 119/299
 current lr: 0.001
-train loss: 0.0081 mae: 0.0582
-val loss: 0.0089 mae: 0.0534
-Elapsed time (sec.): 24.899
+train loss: 0.0087 mae: 0.0595
+val loss: 0.0416 mae: 0.0973
+Elapsed time (sec.): 13.013
 
 Epoch 120/299
 current lr: 0.001
-train loss: 0.0084 mae: 0.0594
-val loss: 0.0085 mae: 0.0530
-Elapsed time (sec.): 27.355
+train loss: 0.0103 mae: 0.0644
+val loss: 0.0088 mae: 0.0525
+Elapsed time (sec.): 12.934
 
 Epoch 121/299
 current lr: 0.001
-train loss: 0.0082 mae: 0.0592
-val loss: 0.0086 mae: 0.0522
-Elapsed time (sec.): 25.032
+train loss: 0.0083 mae: 0.0590
+val loss: 0.0096 mae: 0.0585
+Elapsed time (sec.): 14.880
 
 Epoch 122/299
 current lr: 0.001
-train loss: 0.0082 mae: 0.0594
-val loss: 0.0088 mae: 0.0544
-Elapsed time (sec.): 25.044
+train loss: 0.0085 mae: 0.0601
+val loss: 0.0089 mae: 0.0536
+Elapsed time (sec.): 13.501
 
 Epoch 123/299
 current lr: 0.001
-train loss: 0.0083 mae: 0.0590
-val loss: 0.0099 mae: 0.0599
-Elapsed time (sec.): 27.393
+train loss: 0.0093 mae: 0.0615
+val loss: 0.0094 mae: 0.0566
+Elapsed time (sec.): 14.985
 
 Epoch 124/299
 current lr: 0.001
-train loss: 0.0081 mae: 0.0581
-val loss: 0.0109 mae: 0.0704
-Elapsed time (sec.): 25.033
+train loss: 0.0083 mae: 0.0585
+val loss: 0.0100 mae: 0.0622
+Elapsed time (sec.): 12.887
 
 Epoch 125/299
 current lr: 0.001
-train loss: 0.0081 mae: 0.0587
-val loss: 0.0087 mae: 0.0528
-Elapsed time (sec.): 27.449
+train loss: 0.0082 mae: 0.0588
+val loss: 0.0089 mae: 0.0543
+Elapsed time (sec.): 12.930
 
 Epoch 126/299
 current lr: 0.001
-train loss: 0.0080 mae: 0.0583
-val loss: 0.0103 mae: 0.0666
-Elapsed time (sec.): 24.858
+train loss: 0.0084 mae: 0.0590
+val loss: 0.0115 mae: 0.0754
+Elapsed time (sec.): 14.956
 
 Epoch 127/299
 current lr: 0.001
-train loss: 0.0080 mae: 0.0583
-val loss: 0.0089 mae: 0.0534
-Elapsed time (sec.): 24.973
+train loss: 0.0084 mae: 0.0591
+val loss: 0.0091 mae: 0.0543
+Elapsed time (sec.): 12.922
 
 Epoch 128/299
 current lr: 0.001
-train loss: 0.0082 mae: 0.0593
-val loss: 0.0100 mae: 0.0618
-Elapsed time (sec.): 27.134
+train loss: 0.0084 mae: 0.0596
+val loss: 0.0098 mae: 0.0616
+Elapsed time (sec.): 14.921
 
 Epoch 129/299
 current lr: 0.001
-train loss: 0.0080 mae: 0.0583
-val loss: 0.0089 mae: 0.0558
-Elapsed time (sec.): 24.900
+train loss: 0.0083 mae: 0.0589
+val loss: 0.0086 mae: 0.0520
+Elapsed time (sec.): 12.958
 
 Epoch 130/299
 current lr: 0.001
-train loss: 0.0081 mae: 0.0585
-val loss: 0.0086 mae: 0.0519
-Elapsed time (sec.): 24.980
+train loss: 0.0081 mae: 0.0584
+val loss: 0.0084 mae: 0.0510
+Elapsed time (sec.): 15.109
 
 Epoch 131/299
 current lr: 0.001
-train loss: 0.0082 mae: 0.0584
-val loss: 0.0085 mae: 0.0543
-Elapsed time (sec.): 27.303
+train loss: 0.0085 mae: 0.0591
+val loss: 0.0099 mae: 0.0593
+Elapsed time (sec.): 13.015
 
 Epoch 132/299
 current lr: 0.001
-train loss: 0.0083 mae: 0.0591
-val loss: 0.0110 mae: 0.0653
-Elapsed time (sec.): 25.031
+train loss: 0.0084 mae: 0.0591
+val loss: 0.0093 mae: 0.0597
+Elapsed time (sec.): 13.655
 
 Epoch 133/299
 current lr: 0.001
-train loss: 0.0081 mae: 0.0586
-val loss: 0.0091 mae: 0.0557
-Elapsed time (sec.): 27.185
+train loss: 0.0086 mae: 0.0600
+val loss: 0.0087 mae: 0.0530
+Elapsed time (sec.): 15.004
 
 Epoch 134/299
 current lr: 0.001
-train loss: 0.0080 mae: 0.0585
-val loss: 0.0094 mae: 0.0557
-Elapsed time (sec.): 24.909
+train loss: 0.0083 mae: 0.0590
+val loss: 0.0095 mae: 0.0569
+Elapsed time (sec.): 13.005
 
 Epoch 135/299
 current lr: 0.001
-train loss: 0.0078 mae: 0.0572
-val loss: 0.0092 mae: 0.0558
-Elapsed time (sec.): 24.849
+train loss: 0.0080 mae: 0.0577
+val loss: 0.0094 mae: 0.0562
+Elapsed time (sec.): 14.928
 
 Epoch 136/299
 current lr: 0.001
 train loss: 0.0081 mae: 0.0583
-val loss: 0.0093 mae: 0.0568
-Elapsed time (sec.): 27.121
+val loss: 0.0095 mae: 0.0590
+Elapsed time (sec.): 13.090
 
 Epoch 137/299
 current lr: 0.001
-train loss: 0.0078 mae: 0.0575
-val loss: 0.0101 mae: 0.0656
-Elapsed time (sec.): 25.108
+train loss: 0.0079 mae: 0.0578
+val loss: 0.0098 mae: 0.0607
+Elapsed time (sec.): 13.035
 
 Epoch 138/299
 current lr: 0.001
-train loss: 0.0082 mae: 0.0591
-val loss: 0.0095 mae: 0.0583
-Elapsed time (sec.): 27.354
+train loss: 0.0082 mae: 0.0585
+val loss: 0.0096 mae: 0.0622
+Elapsed time (sec.): 15.013
 
 Epoch 139/299
 current lr: 0.001
-train loss: 0.0079 mae: 0.0584
-val loss: 0.0087 mae: 0.0530
-Elapsed time (sec.): 25.119
+train loss: 0.0087 mae: 0.0603
+val loss: 0.0089 mae: 0.0548
+Elapsed time (sec.): 12.878
 
 Epoch 140/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0570
-val loss: 0.0094 mae: 0.0573
-Elapsed time (sec.): 27.327
+train loss: 0.0083 mae: 0.0584
+val loss: 0.0098 mae: 0.0626
+Elapsed time (sec.): 15.029
 
 Epoch 141/299
 current lr: 0.001
-train loss: 0.0081 mae: 0.0588
-val loss: 0.0089 mae: 0.0548
-Elapsed time (sec.): 25.025
+train loss: 0.0087 mae: 0.0604
+val loss: 0.0085 mae: 0.0523
+Elapsed time (sec.): 12.967
 
 Epoch 142/299
 current lr: 0.001
-train loss: 0.0079 mae: 0.0578
-val loss: 0.0087 mae: 0.0545
-Elapsed time (sec.): 24.948
+train loss: 0.0080 mae: 0.0581
+val loss: 0.0093 mae: 0.0566
+Elapsed time (sec.): 13.516
 
 Epoch 143/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0569
-val loss: 0.0085 mae: 0.0529
-Elapsed time (sec.): 27.311
+train loss: 0.0079 mae: 0.0573
+val loss: 0.0085 mae: 0.0528
+Elapsed time (sec.): 15.034
 
 Epoch 144/299
 current lr: 0.001
-train loss: 0.0081 mae: 0.0582
-val loss: 0.0086 mae: 0.0540
-Elapsed time (sec.): 24.873
+train loss: 0.0080 mae: 0.0578
+val loss: 0.0087 mae: 0.0542
+Elapsed time (sec.): 12.877
 
 Epoch 145/299
 current lr: 0.001
-train loss: 0.0076 mae: 0.0566
-val loss: 0.0084 mae: 0.0524
-Elapsed time (sec.): 27.220
+train loss: 0.0083 mae: 0.0585
+val loss: 0.0092 mae: 0.0572
+Elapsed time (sec.): 15.073
 
 Epoch 146/299
 current lr: 0.001
-train loss: 0.0078 mae: 0.0577
-val loss: 0.0086 mae: 0.0501
-Elapsed time (sec.): 24.889
+train loss: 0.0080 mae: 0.0579
+val loss: 0.0086 mae: 0.0516
+Elapsed time (sec.): 12.968
 
 Epoch 147/299
 current lr: 0.001
-train loss: 0.0076 mae: 0.0566
-val loss: 0.0088 mae: 0.0558
-Elapsed time (sec.): 24.809
+train loss: 0.0076 mae: 0.0564
+val loss: 0.0091 mae: 0.0564
+Elapsed time (sec.): 12.943
 
 Epoch 148/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0565
-val loss: 0.0085 mae: 0.0520
-Elapsed time (sec.): 27.632
+train loss: 0.0076 mae: 0.0560
+val loss: 0.0086 mae: 0.0512
+Elapsed time (sec.): 14.926
 
 Epoch 149/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0577
-val loss: 0.0101 mae: 0.0644
-Elapsed time (sec.): 25.237
+train loss: 0.0078 mae: 0.0579
+val loss: 0.0098 mae: 0.0595
+Elapsed time (sec.): 12.909
 
 Epoch 150/299
 current lr: 0.001
-train loss: 0.0078 mae: 0.0580
-val loss: 0.0095 mae: 0.0610
-Elapsed time (sec.): 27.635
+train loss: 0.0081 mae: 0.0582
+val loss: 0.0088 mae: 0.0546
+Elapsed time (sec.): 14.919
 
 Epoch 151/299
 current lr: 0.001
-train loss: 0.0078 mae: 0.0575
-val loss: 0.0112 mae: 0.0695
-Elapsed time (sec.): 25.066
+train loss: 0.0078 mae: 0.0571
+val loss: 0.0103 mae: 0.0643
+Elapsed time (sec.): 12.920
 
 Epoch 152/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0572
-val loss: 0.0088 mae: 0.0535
-Elapsed time (sec.): 25.002
+train loss: 0.0079 mae: 0.0574
+val loss: 0.0087 mae: 0.0528
+Elapsed time (sec.): 13.003
 
 Epoch 153/299
 current lr: 0.001
-train loss: 0.0079 mae: 0.0581
-val loss: 0.0091 mae: 0.0554
-Elapsed time (sec.): 27.538
+train loss: 0.0079 mae: 0.0580
+val loss: 0.0097 mae: 0.0590
+Elapsed time (sec.): 15.414
 
 Epoch 154/299
 current lr: 0.001
-train loss: 0.0078 mae: 0.0577
-val loss: 0.0090 mae: 0.0557
-Elapsed time (sec.): 25.009
+train loss: 0.0079 mae: 0.0574
+val loss: 0.0087 mae: 0.0516
+Elapsed time (sec.): 13.030
 
 Epoch 155/299
 current lr: 0.001
-train loss: 0.0075 mae: 0.0568
-val loss: 0.0097 mae: 0.0606
-Elapsed time (sec.): 27.535
+train loss: 0.0078 mae: 0.0573
+val loss: 0.0096 mae: 0.0595
+Elapsed time (sec.): 12.975
 
 Epoch 156/299
 current lr: 0.001
-train loss: 0.0078 mae: 0.0575
-val loss: 0.0089 mae: 0.0548
-Elapsed time (sec.): 25.165
+train loss: 0.0082 mae: 0.0586
+val loss: 0.0091 mae: 0.0537
+Elapsed time (sec.): 14.956
 
 Epoch 157/299
 current lr: 0.001
-train loss: 0.0075 mae: 0.0565
-val loss: 0.0108 mae: 0.0694
-Elapsed time (sec.): 25.132
+train loss: 0.0079 mae: 0.0571
+val loss: 0.0109 mae: 0.0674
+Elapsed time (sec.): 12.902
 
 Epoch 158/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0573
-val loss: 0.0096 mae: 0.0581
-Elapsed time (sec.): 27.321
+train loss: 0.0080 mae: 0.0578
+val loss: 0.0095 mae: 0.0592
+Elapsed time (sec.): 14.801
 
 Epoch 159/299
 current lr: 0.001
-train loss: 0.0095 mae: 0.0633
-val loss: 0.0088 mae: 0.0530
-Elapsed time (sec.): 24.983
+train loss: 0.0079 mae: 0.0577
+val loss: 0.0089 mae: 0.0547
+Elapsed time (sec.): 12.989
 
 Epoch 160/299
 current lr: 0.001
-train loss: 0.0076 mae: 0.0568
-val loss: 0.0089 mae: 0.0527
-Elapsed time (sec.): 27.326
+train loss: 0.0077 mae: 0.0569
+val loss: 0.0085 mae: 0.0506
+Elapsed time (sec.): 12.885
 
 Epoch 161/299
 current lr: 0.001
-train loss: 0.0074 mae: 0.0555
-val loss: 0.0104 mae: 0.0651
-Elapsed time (sec.): 24.953
+train loss: 0.0076 mae: 0.0562
+val loss: 0.0113 mae: 0.0695
+Elapsed time (sec.): 14.972
 
 Epoch 162/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0574
-val loss: 0.0089 mae: 0.0542
-Elapsed time (sec.): 25.004
+train loss: 0.0078 mae: 0.0576
+val loss: 0.0090 mae: 0.0561
+Elapsed time (sec.): 12.853
 
 Epoch 163/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0580
-val loss: 0.0088 mae: 0.0525
-Elapsed time (sec.): 27.591
+train loss: 0.0080 mae: 0.0585
+val loss: 0.0085 mae: 0.0522
+Elapsed time (sec.): 15.607
 
 Epoch 164/299
 current lr: 0.001
-train loss: 0.0075 mae: 0.0562
-val loss: 0.0104 mae: 0.0578
-Elapsed time (sec.): 25.104
+train loss: 0.0076 mae: 0.0563
+val loss: 0.0096 mae: 0.0563
+Elapsed time (sec.): 12.972
 
 Epoch 165/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0566
-val loss: 0.0087 mae: 0.0519
-Elapsed time (sec.): 27.267
+train loss: 0.0076 mae: 0.0561
+val loss: 0.0085 mae: 0.0520
+Elapsed time (sec.): 15.017
 
 Epoch 166/299
 current lr: 0.001
-train loss: 0.0076 mae: 0.0573
-val loss: 0.0103 mae: 0.0650
-Elapsed time (sec.): 24.995
+train loss: 0.0078 mae: 0.0576
+val loss: 0.0109 mae: 0.0692
+Elapsed time (sec.): 13.055
 
 Epoch 167/299
 current lr: 0.001
-train loss: 0.0081 mae: 0.0586
-val loss: 0.0089 mae: 0.0545
-Elapsed time (sec.): 24.914
+train loss: 0.0077 mae: 0.0571
+val loss: 0.0095 mae: 0.0591
+Elapsed time (sec.): 12.945
 
 Epoch 168/299
 current lr: 0.001
 train loss: 0.0078 mae: 0.0577
-val loss: 0.0086 mae: 0.0515
-Elapsed time (sec.): 27.237
+val loss: 0.0091 mae: 0.0547
+Elapsed time (sec.): 14.971
 
 Epoch 169/299
 current lr: 0.001
-train loss: 0.0074 mae: 0.0562
-val loss: 0.0089 mae: 0.0541
-Elapsed time (sec.): 24.938
+train loss: 0.0077 mae: 0.0570
+val loss: 0.0088 mae: 0.0523
+Elapsed time (sec.): 12.963
 
 Epoch 170/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0570
-val loss: 0.0091 mae: 0.0553
-Elapsed time (sec.): 27.307
+train loss: 0.0078 mae: 0.0572
+val loss: 0.0086 mae: 0.0517
+Elapsed time (sec.): 15.042
 
 Epoch 171/299
 current lr: 0.001
-train loss: 0.0075 mae: 0.0567
-val loss: 0.0104 mae: 0.0671
-Elapsed time (sec.): 24.926
+train loss: 0.0085 mae: 0.0598
+val loss: 0.0097 mae: 0.0613
+Elapsed time (sec.): 13.009
 
 Epoch 172/299
 current lr: 0.001
-train loss: 0.0074 mae: 0.0565
-val loss: 0.0097 mae: 0.0592
-Elapsed time (sec.): 24.946
+train loss: 0.0075 mae: 0.0566
+val loss: 0.0093 mae: 0.0561
+Elapsed time (sec.): 13.019
 
 Epoch 173/299
 current lr: 0.001
-train loss: 0.0074 mae: 0.0563
-val loss: 0.0096 mae: 0.0562
-Elapsed time (sec.): 27.288
+train loss: 0.0080 mae: 0.0580
+val loss: 0.0093 mae: 0.0557
+Elapsed time (sec.): 15.498
 
 Epoch 174/299
 current lr: 0.001
-train loss: 0.0075 mae: 0.0568
-val loss: 0.0093 mae: 0.0566
-Elapsed time (sec.): 25.006
+train loss: 0.0076 mae: 0.0566
+val loss: 0.0096 mae: 0.0584
+Elapsed time (sec.): 13.150
 
 Epoch 175/299
 current lr: 0.001
-train loss: 0.0079 mae: 0.0583
-val loss: 0.0098 mae: 0.0613
-Elapsed time (sec.): 24.938
+train loss: 0.0079 mae: 0.0579
+val loss: 0.0099 mae: 0.0602
+Elapsed time (sec.): 12.894
 
 Epoch 176/299
 current lr: 0.001
-train loss: 0.0074 mae: 0.0565
-val loss: 0.0090 mae: 0.0542
-Elapsed time (sec.): 27.330
+train loss: 0.0074 mae: 0.0559
+val loss: 0.0087 mae: 0.0524
+Elapsed time (sec.): 14.880
 
 Epoch 177/299
 current lr: 0.001
-train loss: 0.0074 mae: 0.0563
-val loss: 0.0087 mae: 0.0531
-Elapsed time (sec.): 25.017
+train loss: 0.0075 mae: 0.0565
+val loss: 0.0090 mae: 0.0527
+Elapsed time (sec.): 13.007
 
 Epoch 178/299
 current lr: 0.001
-train loss: 0.0075 mae: 0.0563
-val loss: 0.0089 mae: 0.0543
-Elapsed time (sec.): 27.264
+train loss: 0.0078 mae: 0.0569
+val loss: 0.0088 mae: 0.0543
+Elapsed time (sec.): 14.952
 
 Epoch 179/299
 current lr: 0.001
-train loss: 0.0075 mae: 0.0569
-val loss: 0.0085 mae: 0.0515
-Elapsed time (sec.): 24.920
+train loss: 0.0080 mae: 0.0577
+val loss: 0.0088 mae: 0.0520
+Elapsed time (sec.): 13.103
 
 Epoch 180/299
 current lr: 0.001
-train loss: 0.0076 mae: 0.0573
-val loss: 0.0093 mae: 0.0573
-Elapsed time (sec.): 27.288
+train loss: 0.0078 mae: 0.0575
+val loss: 0.0094 mae: 0.0569
+Elapsed time (sec.): 12.915
 
 Epoch 181/299
 current lr: 0.001
-train loss: 0.0073 mae: 0.0557
-val loss: 0.0084 mae: 0.0521
-Elapsed time (sec.): 24.939
+train loss: 0.0075 mae: 0.0556
+val loss: 0.0085 mae: 0.0522
+Elapsed time (sec.): 14.943
 
 Epoch 182/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0576
-val loss: 0.0089 mae: 0.0525
-Elapsed time (sec.): 24.905
+train loss: 0.0076 mae: 0.0572
+val loss: 0.0091 mae: 0.0535
+Elapsed time (sec.): 12.919
 
 Epoch 183/299
 current lr: 0.001
-train loss: 0.0074 mae: 0.0560
-val loss: 0.0083 mae: 0.0512
-Elapsed time (sec.): 27.207
+train loss: 0.0075 mae: 0.0563
+val loss: 0.0087 mae: 0.0517
+Elapsed time (sec.): 15.034
 
 Epoch 184/299
 current lr: 0.001
-train loss: 0.0076 mae: 0.0568
-val loss: 0.0089 mae: 0.0549
-Elapsed time (sec.): 24.908
+train loss: 0.0075 mae: 0.0562
+val loss: 0.0092 mae: 0.0559
+Elapsed time (sec.): 13.614
 
 Epoch 185/299
 current lr: 0.001
-train loss: 0.0075 mae: 0.0568
-val loss: 0.0091 mae: 0.0558
-Elapsed time (sec.): 27.274
+train loss: 0.0076 mae: 0.0569
+val loss: 0.0094 mae: 0.0571
+Elapsed time (sec.): 15.212
 
 Epoch 186/299
 current lr: 0.001
-train loss: 0.0073 mae: 0.0557
-val loss: 0.0088 mae: 0.0517
-Elapsed time (sec.): 24.892
+train loss: 0.0075 mae: 0.0559
+val loss: 0.0095 mae: 0.0573
+Elapsed time (sec.): 13.003
 
 Epoch 187/299
 current lr: 0.001
-train loss: 0.0075 mae: 0.0563
-val loss: 0.0087 mae: 0.0525
-Elapsed time (sec.): 24.849
+train loss: 0.0077 mae: 0.0564
+val loss: 0.0088 mae: 0.0534
+Elapsed time (sec.): 12.927
 
 Epoch 188/299
 current lr: 0.001
-train loss: 0.0073 mae: 0.0561
-val loss: 0.0096 mae: 0.0547
-Elapsed time (sec.): 27.172
+train loss: 0.0074 mae: 0.0562
+val loss: 0.0094 mae: 0.0569
+Elapsed time (sec.): 14.866
 
 Epoch 189/299
 current lr: 0.001
-train loss: 0.0074 mae: 0.0560
-val loss: 0.0088 mae: 0.0518
-Elapsed time (sec.): 24.946
+train loss: 0.0074 mae: 0.0557
+val loss: 0.0087 mae: 0.0532
+Elapsed time (sec.): 12.977
 
 Epoch 190/299
 current lr: 0.001
-train loss: 0.0074 mae: 0.0564
-val loss: 0.0110 mae: 0.0658
-Elapsed time (sec.): 24.881
+train loss: 0.0075 mae: 0.0566
+val loss: 0.0106 mae: 0.0661
+Elapsed time (sec.): 15.000
 
 Epoch 191/299
 current lr: 0.001
-train loss: 0.0073 mae: 0.0558
-val loss: 0.0091 mae: 0.0538
-Elapsed time (sec.): 27.071
+train loss: 0.0074 mae: 0.0557
+val loss: 0.0090 mae: 0.0535
+Elapsed time (sec.): 12.948
 
 Epoch 192/299
 current lr: 0.001
-train loss: 0.0072 mae: 0.0561
-val loss: 0.0100 mae: 0.0618
-Elapsed time (sec.): 24.866
+train loss: 0.0075 mae: 0.0563
+val loss: 0.0099 mae: 0.0608
+Elapsed time (sec.): 12.936
 
 Epoch 193/299
 current lr: 0.001
-train loss: 0.0077 mae: 0.0576
-val loss: 0.0084 mae: 0.0515
-Elapsed time (sec.): 27.261
+train loss: 0.0076 mae: 0.0566
+val loss: 0.0084 mae: 0.0506
+Elapsed time (sec.): 14.948
 
 Epoch 194/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0554
-val loss: 0.0093 mae: 0.0580
-Elapsed time (sec.): 25.026
+train loss: 0.0073 mae: 0.0555
+val loss: 0.0092 mae: 0.0538
+Elapsed time (sec.): 13.001
 
 Epoch 195/299
 current lr: 0.001
-train loss: 0.0072 mae: 0.0553
-val loss: 0.0091 mae: 0.0558
-Elapsed time (sec.): 25.072
+train loss: 0.0072 mae: 0.0552
+val loss: 0.0088 mae: 0.0548
+Elapsed time (sec.): 15.119
 
 Epoch 196/299
 current lr: 0.001
-train loss: 0.0072 mae: 0.0559
-val loss: 0.0089 mae: 0.0537
-Elapsed time (sec.): 27.701
+train loss: 0.0074 mae: 0.0563
+val loss: 0.0091 mae: 0.0554
+Elapsed time (sec.): 13.091
 
 Epoch 197/299
 current lr: 0.001
-train loss: 0.0073 mae: 0.0558
+train loss: 0.0073 mae: 0.0557
 val loss: 0.0089 mae: 0.0541
-Elapsed time (sec.): 25.193
+Elapsed time (sec.): 12.847
 
 Epoch 198/299
 current lr: 0.001
-train loss: 0.0073 mae: 0.0561
-val loss: 0.0099 mae: 0.0575
-Elapsed time (sec.): 27.771
+train loss: 0.0075 mae: 0.0565
+val loss: 0.0087 mae: 0.0522
+Elapsed time (sec.): 14.875
 
 Epoch 199/299
 current lr: 0.001
-train loss: 0.0076 mae: 0.0570
-val loss: 0.0087 mae: 0.0523
-Elapsed time (sec.): 25.407
+train loss: 0.0073 mae: 0.0557
+val loss: 0.0086 mae: 0.0514
+Elapsed time (sec.): 12.918
 
 Epoch 200/299
 current lr: 0.001
-train loss: 0.0072 mae: 0.0557
-val loss: 0.0103 mae: 0.0641
-Elapsed time (sec.): 27.494
+train loss: 0.0078 mae: 0.0574
+val loss: 0.0090 mae: 0.0529
+Elapsed time (sec.): 14.953
 
 Epoch 201/299
 current lr: 0.001
-train loss: 0.0073 mae: 0.0560
-val loss: 0.0099 mae: 0.0587
-Elapsed time (sec.): 25.514
+train loss: 0.0073 mae: 0.0554
+val loss: 0.0096 mae: 0.0563
+Elapsed time (sec.): 12.994
 
 Epoch 202/299
 current lr: 0.001
 train loss: 0.0070 mae: 0.0543
-val loss: 0.0084 mae: 0.0508
-Elapsed time (sec.): 25.354
+val loss: 0.0086 mae: 0.0522
+Elapsed time (sec.): 12.959
 
 Epoch 203/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0551
-val loss: 0.0088 mae: 0.0526
-Elapsed time (sec.): 27.467
+train loss: 0.0072 mae: 0.0550
+val loss: 0.0084 mae: 0.0503
+Elapsed time (sec.): 15.048
 
 Epoch 204/299
 current lr: 0.001
-train loss: 0.0074 mae: 0.0566
-val loss: 0.0093 mae: 0.0589
-Elapsed time (sec.): 25.295
+train loss: 0.0074 mae: 0.0568
+val loss: 0.0094 mae: 0.0582
+Elapsed time (sec.): 12.943
 
 Epoch 205/299
 current lr: 0.001
-train loss: 0.0070 mae: 0.0550
-val loss: 0.0086 mae: 0.0522
-Elapsed time (sec.): 27.628
+train loss: 0.0073 mae: 0.0554
+val loss: 0.0086 mae: 0.0514
+Elapsed time (sec.): 15.003
 
 Epoch 206/299
 current lr: 0.001
-train loss: 0.0072 mae: 0.0553
-val loss: 0.0086 mae: 0.0521
-Elapsed time (sec.): 25.186
+train loss: 0.0073 mae: 0.0556
+val loss: 0.0084 mae: 0.0503
+Elapsed time (sec.): 12.942
 
 Epoch 207/299
 current lr: 0.001
-train loss: 0.0072 mae: 0.0558
-val loss: 0.0087 mae: 0.0520
-Elapsed time (sec.): 25.323
+train loss: 0.0073 mae: 0.0561
+val loss: 0.0087 mae: 0.0526
+Elapsed time (sec.): 13.027
 
 Epoch 208/299
 current lr: 0.001
-train loss: 0.0079 mae: 0.0578
-val loss: 0.0096 mae: 0.0554
-Elapsed time (sec.): 27.407
+train loss: 0.0075 mae: 0.0565
+val loss: 0.0092 mae: 0.0541
+Elapsed time (sec.): 15.094
 
 Epoch 209/299
 current lr: 0.001
-train loss: 0.0073 mae: 0.0558
-val loss: 0.0094 mae: 0.0583
-Elapsed time (sec.): 25.358
+train loss: 0.0075 mae: 0.0559
+val loss: 0.0090 mae: 0.0545
+Elapsed time (sec.): 12.801
 
 Epoch 210/299
 current lr: 0.001
-train loss: 0.0073 mae: 0.0561
-val loss: 0.0089 mae: 0.0531
-Elapsed time (sec.): 27.843
+train loss: 0.0074 mae: 0.0562
+val loss: 0.0086 mae: 0.0520
+Elapsed time (sec.): 15.013
 
 Epoch 211/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0548
-val loss: 0.0086 mae: 0.0513
-Elapsed time (sec.): 25.649
+train loss: 0.0070 mae: 0.0541
+val loss: 0.0082 mae: 0.0505
+Elapsed time (sec.): 12.940
 
 Epoch 212/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0558
-val loss: 0.0088 mae: 0.0522
-Elapsed time (sec.): 25.483
+train loss: 0.0072 mae: 0.0557
+val loss: 0.0090 mae: 0.0536
+Elapsed time (sec.): 12.934
 
 Epoch 213/299
 current lr: 0.001
-train loss: 0.0072 mae: 0.0562
-val loss: 0.0094 mae: 0.0567
-Elapsed time (sec.): 27.687
+train loss: 0.0074 mae: 0.0565
+val loss: 0.0094 mae: 0.0573
+Elapsed time (sec.): 15.063
 
 Epoch 214/299
 current lr: 0.001
-train loss: 0.0069 mae: 0.0545
-val loss: 0.0088 mae: 0.0540
-Elapsed time (sec.): 25.340
+train loss: 0.0072 mae: 0.0553
+val loss: 0.0084 mae: 0.0506
+Elapsed time (sec.): 13.073
 
 Epoch 215/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0556
-val loss: 0.0086 mae: 0.0521
-Elapsed time (sec.): 27.923
+train loss: 0.0073 mae: 0.0560
+val loss: 0.0088 mae: 0.0530
+Elapsed time (sec.): 14.806
 
 Epoch 216/299
 current lr: 0.001
-train loss: 0.0070 mae: 0.0551
-val loss: 0.0094 mae: 0.0579
-Elapsed time (sec.): 25.044
+train loss: 0.0072 mae: 0.0553
+val loss: 0.0087 mae: 0.0532
+Elapsed time (sec.): 12.917
 
 Epoch 217/299
 current lr: 0.001
-train loss: 0.0073 mae: 0.0563
-val loss: 0.0086 mae: 0.0506
-Elapsed time (sec.): 25.324
+train loss: 0.0075 mae: 0.0565
+val loss: 0.0084 mae: 0.0501
+Elapsed time (sec.): 13.029
 
 Epoch 218/299
 current lr: 0.001
-train loss: 0.0072 mae: 0.0556
-val loss: 0.0091 mae: 0.0560
-Elapsed time (sec.): 27.519
+train loss: 0.0074 mae: 0.0558
+val loss: 0.0090 mae: 0.0564
+Elapsed time (sec.): 15.004
 
 Epoch 219/299
 current lr: 0.001
-train loss: 0.0070 mae: 0.0552
-val loss: 0.0085 mae: 0.0514
-Elapsed time (sec.): 25.206
+train loss: 0.0071 mae: 0.0551
+val loss: 0.0086 mae: 0.0504
+Elapsed time (sec.): 12.901
 
 Epoch 220/299
 current lr: 0.001
-train loss: 0.0067 mae: 0.0535
-val loss: 0.0093 mae: 0.0544
-Elapsed time (sec.): 27.210
+train loss: 0.0069 mae: 0.0538
+val loss: 0.0087 mae: 0.0510
+Elapsed time (sec.): 13.005
 
 Epoch 221/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0551
-val loss: 0.0114 mae: 0.0709
-Elapsed time (sec.): 24.916
+train loss: 0.0073 mae: 0.0554
+val loss: 0.0100 mae: 0.0617
+Elapsed time (sec.): 14.892
 
 Epoch 222/299
 current lr: 0.001
-train loss: 0.0070 mae: 0.0549
-val loss: 0.0092 mae: 0.0562
-Elapsed time (sec.): 24.881
+train loss: 0.0071 mae: 0.0548
+val loss: 0.0092 mae: 0.0569
+Elapsed time (sec.): 12.872
 
 Epoch 223/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0556
-val loss: 0.0108 mae: 0.0676
-Elapsed time (sec.): 27.272
+train loss: 0.0071 mae: 0.0553
+val loss: 0.0095 mae: 0.0588
+Elapsed time (sec.): 14.858
 
 Epoch 224/299
 current lr: 0.001
-train loss: 0.0073 mae: 0.0561
-val loss: 0.0091 mae: 0.0548
-Elapsed time (sec.): 24.921
+train loss: 0.0070 mae: 0.0546
+val loss: 0.0091 mae: 0.0538
+Elapsed time (sec.): 13.012
 
 Epoch 225/299
 current lr: 0.001
-train loss: 0.0069 mae: 0.0545
-val loss: 0.0088 mae: 0.0527
-Elapsed time (sec.): 27.262
+train loss: 0.0069 mae: 0.0544
+val loss: 0.0085 mae: 0.0503
+Elapsed time (sec.): 15.048
 
 Epoch 226/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0557
-val loss: 0.0092 mae: 0.0543
-Elapsed time (sec.): 24.880
+train loss: 0.0071 mae: 0.0551
+val loss: 0.0096 mae: 0.0566
+Elapsed time (sec.): 12.988
 
 Epoch 227/299
 current lr: 0.001
-train loss: 0.0069 mae: 0.0547
-val loss: 0.0087 mae: 0.0528
-Elapsed time (sec.): 24.842
+train loss: 0.0071 mae: 0.0553
+val loss: 0.0089 mae: 0.0514
+Elapsed time (sec.): 12.918
 
 Epoch 228/299
 current lr: 0.001
-train loss: 0.0069 mae: 0.0546
-val loss: 0.0090 mae: 0.0512
-Elapsed time (sec.): 27.137
+train loss: 0.0086 mae: 0.0584
+val loss: 0.0108 mae: 0.0616
+Elapsed time (sec.): 14.864
 
 Epoch 229/299
 current lr: 0.001
-train loss: 0.0070 mae: 0.0549
-val loss: 0.0088 mae: 0.0515
-Elapsed time (sec.): 24.880
+train loss: 0.0076 mae: 0.0569
+val loss: 0.0086 mae: 0.0507
+Elapsed time (sec.): 12.965
 
 Epoch 230/299
 current lr: 0.001
-train loss: 0.0070 mae: 0.0549
-val loss: 0.0087 mae: 0.0500
-Elapsed time (sec.): 27.316
+train loss: 0.0068 mae: 0.0542
+val loss: 0.0085 mae: 0.0520
+Elapsed time (sec.): 15.057
 
 Epoch 231/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0551
-val loss: 0.0086 mae: 0.0517
-Elapsed time (sec.): 25.040
+train loss: 0.0068 mae: 0.0539
+val loss: 0.0089 mae: 0.0546
+Elapsed time (sec.): 12.991
 
 Epoch 232/299
 current lr: 0.001
-train loss: 0.0069 mae: 0.0546
-val loss: 0.0092 mae: 0.0547
-Elapsed time (sec.): 25.149
+train loss: 0.0069 mae: 0.0541
+val loss: 0.0083 mae: 0.0503
+Elapsed time (sec.): 12.956
 
 Epoch 233/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0555
-val loss: 0.0087 mae: 0.0540
-Elapsed time (sec.): 27.195
+train loss: 0.0070 mae: 0.0546
+val loss: 0.0089 mae: 0.0540
+Elapsed time (sec.): 14.871
 
 Epoch 234/299
 current lr: 0.001
-train loss: 0.0068 mae: 0.0546
-val loss: 0.0090 mae: 0.0514
-Elapsed time (sec.): 24.792
+train loss: 0.0069 mae: 0.0544
+val loss: 0.0087 mae: 0.0511
+Elapsed time (sec.): 12.947
 
 Epoch 235/299
 current lr: 0.001
-train loss: 0.0070 mae: 0.0550
-val loss: 0.0092 mae: 0.0545
-Elapsed time (sec.): 24.925
+train loss: 0.0070 mae: 0.0546
+val loss: 0.0085 mae: 0.0508
+Elapsed time (sec.): 12.895
 
 Epoch 236/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0551
-val loss: 0.0091 mae: 0.0567
-Elapsed time (sec.): 27.165
+train loss: 0.0070 mae: 0.0546
+val loss: 0.0093 mae: 0.0577
+Elapsed time (sec.): 14.997
 
 Epoch 237/299
 current lr: 0.001
-train loss: 0.0068 mae: 0.0543
-val loss: 0.0088 mae: 0.0530
-Elapsed time (sec.): 24.858
+train loss: 0.0072 mae: 0.0553
+val loss: 0.0089 mae: 0.0531
+Elapsed time (sec.): 12.950
 
 Epoch 238/299
 current lr: 0.001
-train loss: 0.0068 mae: 0.0542
-val loss: 0.0092 mae: 0.0532
-Elapsed time (sec.): 27.238
+train loss: 0.0071 mae: 0.0548
+val loss: 0.0087 mae: 0.0534
+Elapsed time (sec.): 14.999
 
 Epoch 239/299
 current lr: 0.001
-train loss: 0.0071 mae: 0.0555
-val loss: 0.0100 mae: 0.0612
-Elapsed time (sec.): 24.883
+train loss: 0.0072 mae: 0.0553
+val loss: 0.0100 mae: 0.0608
+Elapsed time (sec.): 13.033
 
 Epoch 240/299
 current lr: 0.001
-train loss: 0.0069 mae: 0.0545
-val loss: 0.0091 mae: 0.0564
-Elapsed time (sec.): 27.264
+train loss: 0.0070 mae: 0.0545
+val loss: 0.0094 mae: 0.0540
+Elapsed time (sec.): 12.963
 
 Epoch 241/299
 current lr: 0.001
-train loss: 0.0068 mae: 0.0547
-val loss: 0.0089 mae: 0.0548
-Elapsed time (sec.): 24.893
+train loss: 0.0072 mae: 0.0557
+val loss: 0.0084 mae: 0.0510
+Elapsed time (sec.): 14.973
 
 Epoch 242/299
 current lr: 0.001
-train loss: 0.0066 mae: 0.0533
-val loss: 0.0094 mae: 0.0539
-Elapsed time (sec.): 25.087
+train loss: 0.0068 mae: 0.0538
+val loss: 0.0090 mae: 0.0537
+Elapsed time (sec.): 13.052
 
 Epoch 243/299
 current lr: 0.001
-train loss: 0.0069 mae: 0.0548
-val loss: 0.0098 mae: 0.0614
-Elapsed time (sec.): 27.459
+train loss: 0.0072 mae: 0.0555
+val loss: 0.0096 mae: 0.0607
+Elapsed time (sec.): 15.001
 
 Epoch 244/299
 current lr: 0.001
-train loss: 0.0068 mae: 0.0539
-val loss: 0.0090 mae: 0.0529
-Elapsed time (sec.): 24.917
+train loss: 0.0068 mae: 0.0536
+val loss: 0.0092 mae: 0.0553
+Elapsed time (sec.): 12.919
 
 Epoch 245/299
 current lr: 0.001
-train loss: 0.0072 mae: 0.0554
-val loss: 0.0087 mae: 0.0514
-Elapsed time (sec.): 27.279
+train loss: 0.0068 mae: 0.0535
+val loss: 0.0092 mae: 0.0566
+Elapsed time (sec.): 15.050
 
 Epoch 246/299
 current lr: 0.001
-train loss: 0.0067 mae: 0.0539
-val loss: 0.0091 mae: 0.0527
-Elapsed time (sec.): 24.939
+train loss: 0.0070 mae: 0.0544
+val loss: 0.0085 mae: 0.0516
+Elapsed time (sec.): 12.986
 
 Epoch 247/299
 current lr: 0.001
-train loss: 0.0068 mae: 0.0542
-val loss: 0.0097 mae: 0.0569
-Elapsed time (sec.): 24.882
+train loss: 0.0069 mae: 0.0543
+val loss: 0.0093 mae: 0.0543
+Elapsed time (sec.): 12.938
 
 Epoch 248/299
 current lr: 0.001
-train loss: 0.0072 mae: 0.0558
-val loss: 0.0114 mae: 0.0638
-Elapsed time (sec.): 27.226
+train loss: 0.0069 mae: 0.0544
+val loss: 0.0099 mae: 0.0567
+Elapsed time (sec.): 15.052
 
 Epoch 249/299
-current lr: 0.0001
-train loss: 0.0062 mae: 0.0502
-val loss: 0.0078 mae: 0.0464
-Elapsed time (sec.): 24.898
+current lr: 0.001
+train loss: 0.0069 mae: 0.0540
+val loss: 0.0087 mae: 0.0534
+Elapsed time (sec.): 13.043
 
 Epoch 250/299
 current lr: 0.0001
-train loss: 0.0050 mae: 0.0452
-val loss: 0.0076 mae: 0.0452
-Elapsed time (sec.): 24.829
+train loss: 0.0050 mae: 0.0444
+val loss: 0.0072 mae: 0.0437
+Elapsed time (sec.): 14.937
 
 Epoch 251/299
 current lr: 0.0001
-train loss: 0.0047 mae: 0.0440
-val loss: 0.0074 mae: 0.0438
-Elapsed time (sec.): 27.151
+train loss: 0.0045 mae: 0.0426
+val loss: 0.0072 mae: 0.0425
+Elapsed time (sec.): 12.991
 
 Epoch 252/299
 current lr: 0.0001
-train loss: 0.0045 mae: 0.0433
-val loss: 0.0075 mae: 0.0436
-Elapsed time (sec.): 24.935
+train loss: 0.0044 mae: 0.0422
+val loss: 0.0072 mae: 0.0426
+Elapsed time (sec.): 13.057
 
 Epoch 253/299
 current lr: 0.0001
-train loss: 0.0043 mae: 0.0425
-val loss: 0.0075 mae: 0.0438
-Elapsed time (sec.): 27.217
+train loss: 0.0043 mae: 0.0417
+val loss: 0.0072 mae: 0.0426
+Elapsed time (sec.): 14.999
 
 Epoch 254/299
 current lr: 0.0001
-train loss: 0.0043 mae: 0.0425
-val loss: 0.0075 mae: 0.0435
-Elapsed time (sec.): 24.902
+train loss: 0.0043 mae: 0.0417
+val loss: 0.0072 mae: 0.0425
+Elapsed time (sec.): 13.015
 
 Epoch 255/299
 current lr: 0.0001
-train loss: 0.0043 mae: 0.0424
-val loss: 0.0074 mae: 0.0429
-Elapsed time (sec.): 24.910
+train loss: 0.0043 mae: 0.0419
+val loss: 0.0072 mae: 0.0422
+Elapsed time (sec.): 15.154
 
 Epoch 256/299
 current lr: 0.0001
-train loss: 0.0042 mae: 0.0418
-val loss: 0.0074 mae: 0.0433
-Elapsed time (sec.): 27.098
+train loss: 0.0042 mae: 0.0414
+val loss: 0.0073 mae: 0.0428
+Elapsed time (sec.): 13.128
 
 Epoch 257/299
 current lr: 0.0001
-train loss: 0.0041 mae: 0.0416
-val loss: 0.0074 mae: 0.0428
-Elapsed time (sec.): 24.841
+train loss: 0.0042 mae: 0.0411
+val loss: 0.0072 mae: 0.0422
+Elapsed time (sec.): 12.882
 
 Epoch 258/299
 current lr: 0.0001
-train loss: 0.0041 mae: 0.0418
-val loss: 0.0074 mae: 0.0431
-Elapsed time (sec.): 27.140
+train loss: 0.0042 mae: 0.0415
+val loss: 0.0073 mae: 0.0427
+Elapsed time (sec.): 14.799
 
 Epoch 259/299
 current lr: 0.0001
-train loss: 0.0040 mae: 0.0413
-val loss: 0.0074 mae: 0.0428
-Elapsed time (sec.): 24.875
+train loss: 0.0041 mae: 0.0409
+val loss: 0.0073 mae: 0.0423
+Elapsed time (sec.): 12.978
 
 Epoch 260/299
 current lr: 0.0001
-train loss: 0.0041 mae: 0.0415
-val loss: 0.0074 mae: 0.0427
-Elapsed time (sec.): 27.170
+train loss: 0.0041 mae: 0.0413
+val loss: 0.0072 mae: 0.0422
+Elapsed time (sec.): 15.013
 
 Epoch 261/299
 current lr: 0.0001
-train loss: 0.0040 mae: 0.0411
-val loss: 0.0075 mae: 0.0439
-Elapsed time (sec.): 24.887
+train loss: 0.0041 mae: 0.0409
+val loss: 0.0073 mae: 0.0434
+Elapsed time (sec.): 13.111
 
 Epoch 262/299
 current lr: 0.0001
-train loss: 0.0040 mae: 0.0416
-val loss: 0.0074 mae: 0.0427
-Elapsed time (sec.): 24.788
+train loss: 0.0041 mae: 0.0413
+val loss: 0.0072 mae: 0.0422
+Elapsed time (sec.): 12.929
 
 Epoch 263/299
 current lr: 0.0001
-train loss: 0.0039 mae: 0.0409
-val loss: 0.0074 mae: 0.0429
-Elapsed time (sec.): 27.082
+train loss: 0.0040 mae: 0.0407
+val loss: 0.0073 mae: 0.0426
+Elapsed time (sec.): 14.921
 
 Epoch 264/299
 current lr: 0.0001
-train loss: 0.0039 mae: 0.0407
-val loss: 0.0074 mae: 0.0425
-Elapsed time (sec.): 24.831
+train loss: 0.0040 mae: 0.0407
+val loss: 0.0073 mae: 0.0425
+Elapsed time (sec.): 12.881
 
 Epoch 265/299
 current lr: 0.0001
-train loss: 0.0039 mae: 0.0408
-val loss: 0.0075 mae: 0.0430
-Elapsed time (sec.): 27.342
+train loss: 0.0040 mae: 0.0406
+val loss: 0.0073 mae: 0.0426
+Elapsed time (sec.): 15.130
 
 Epoch 266/299
 current lr: 0.0001
-train loss: 0.0039 mae: 0.0411
-val loss: 0.0075 mae: 0.0440
-Elapsed time (sec.): 24.886
+train loss: 0.0041 mae: 0.0409
+val loss: 0.0074 mae: 0.0431
+Elapsed time (sec.): 12.880
 
 Epoch 267/299
 current lr: 0.0001
-train loss: 0.0039 mae: 0.0406
-val loss: 0.0075 mae: 0.0428
-Elapsed time (sec.): 24.852
+train loss: 0.0040 mae: 0.0404
+val loss: 0.0073 mae: 0.0422
+Elapsed time (sec.): 12.924
 
 Epoch 268/299
 current lr: 0.0001
-train loss: 0.0039 mae: 0.0411
-val loss: 0.0075 mae: 0.0430
-Elapsed time (sec.): 27.151
+train loss: 0.0040 mae: 0.0411
+val loss: 0.0073 mae: 0.0429
+Elapsed time (sec.): 14.948
 
 Epoch 269/299
 current lr: 0.0001
-train loss: 0.0038 mae: 0.0406
-val loss: 0.0076 mae: 0.0435
-Elapsed time (sec.): 24.812
+train loss: 0.0040 mae: 0.0406
+val loss: 0.0074 mae: 0.0430
+Elapsed time (sec.): 12.932
 
 Epoch 270/299
 current lr: 0.0001
-train loss: 0.0038 mae: 0.0406
-val loss: 0.0075 mae: 0.0433
-Elapsed time (sec.): 27.310
+train loss: 0.0040 mae: 0.0405
+val loss: 0.0073 mae: 0.0428
+Elapsed time (sec.): 15.074
 
 Epoch 271/299
 current lr: 0.0001
-train loss: 0.0038 mae: 0.0405
-val loss: 0.0074 mae: 0.0424
-Elapsed time (sec.): 25.296
+train loss: 0.0040 mae: 0.0405
+val loss: 0.0073 mae: 0.0422
+Elapsed time (sec.): 12.974
 
 Epoch 272/299
 current lr: 0.0001
-train loss: 0.0039 mae: 0.0412
-val loss: 0.0076 mae: 0.0440
-Elapsed time (sec.): 25.327
+train loss: 0.0040 mae: 0.0411
+val loss: 0.0074 mae: 0.0433
+Elapsed time (sec.): 12.972
 
 Epoch 273/299
 current lr: 0.0001
-train loss: 0.0038 mae: 0.0406
-val loss: 0.0075 mae: 0.0428
-Elapsed time (sec.): 27.431
+train loss: 0.0039 mae: 0.0405
+val loss: 0.0073 mae: 0.0424
+Elapsed time (sec.): 14.988
 
 Epoch 274/299
 current lr: 0.0001
-train loss: 0.0037 mae: 0.0401
-val loss: 0.0074 mae: 0.0424
-Elapsed time (sec.): 24.969
+train loss: 0.0039 mae: 0.0400
+val loss: 0.0074 mae: 0.0425
+Elapsed time (sec.): 12.962
 
 Epoch 275/299
 current lr: 0.0001
-train loss: 0.0038 mae: 0.0405
-val loss: 0.0075 mae: 0.0424
-Elapsed time (sec.): 27.258
+train loss: 0.0039 mae: 0.0405
+val loss: 0.0073 mae: 0.0422
+Elapsed time (sec.): 15.064
 
 Epoch 276/299
 current lr: 0.0001
-train loss: 0.0037 mae: 0.0403
-val loss: 0.0075 mae: 0.0426
-Elapsed time (sec.): 25.005
+train loss: 0.0039 mae: 0.0404
+val loss: 0.0073 mae: 0.0423
+Elapsed time (sec.): 12.991
 
 Epoch 277/299
 current lr: 0.0001
-train loss: 0.0038 mae: 0.0403
-val loss: 0.0076 mae: 0.0430
-Elapsed time (sec.): 24.866
+train loss: 0.0039 mae: 0.0404
+val loss: 0.0074 mae: 0.0430
+Elapsed time (sec.): 13.170
 
 Epoch 278/299
 current lr: 0.0001
-train loss: 0.0038 mae: 0.0404
-val loss: 0.0076 mae: 0.0433
-Elapsed time (sec.): 27.620
+train loss: 0.0039 mae: 0.0404
+val loss: 0.0074 mae: 0.0424
+Elapsed time (sec.): 15.167
 
 Epoch 279/299
 current lr: 0.0001
-train loss: 0.0038 mae: 0.0408
-val loss: 0.0075 mae: 0.0430
-Elapsed time (sec.): 24.992
+train loss: 0.0039 mae: 0.0408
+val loss: 0.0074 mae: 0.0426
+Elapsed time (sec.): 13.069
 
 Epoch 280/299
 current lr: 0.0001
-train loss: 0.0037 mae: 0.0403
-val loss: 0.0077 mae: 0.0429
-Elapsed time (sec.): 27.413
+train loss: 0.0039 mae: 0.0403
+val loss: 0.0075 mae: 0.0427
+Elapsed time (sec.): 13.048
 
 Epoch 281/299
 current lr: 0.0001
-train loss: 0.0037 mae: 0.0400
-val loss: 0.0076 mae: 0.0428
-Elapsed time (sec.): 24.914
+train loss: 0.0039 mae: 0.0403
+val loss: 0.0074 mae: 0.0424
+Elapsed time (sec.): 14.957
 
 Epoch 282/299
 current lr: 0.0001
-train loss: 0.0037 mae: 0.0401
-val loss: 0.0076 mae: 0.0430
-Elapsed time (sec.): 24.945
+train loss: 0.0038 mae: 0.0402
+val loss: 0.0074 mae: 0.0429
+Elapsed time (sec.): 13.100
 
 Epoch 283/299
 current lr: 0.0001
-train loss: 0.0037 mae: 0.0398
-val loss: 0.0076 mae: 0.0428
-Elapsed time (sec.): 27.245
+train loss: 0.0038 mae: 0.0399
+val loss: 0.0074 mae: 0.0429
+Elapsed time (sec.): 15.075
 
 Epoch 284/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0395
-val loss: 0.0077 mae: 0.0428
-Elapsed time (sec.): 24.942
+train loss: 0.0038 mae: 0.0396
+val loss: 0.0075 mae: 0.0426
+Elapsed time (sec.): 12.978
 
 Epoch 285/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0397
-val loss: 0.0076 mae: 0.0425
-Elapsed time (sec.): 27.135
+train loss: 0.0038 mae: 0.0399
+val loss: 0.0074 mae: 0.0425
+Elapsed time (sec.): 15.073
 
 Epoch 286/299
 current lr: 0.0001
-train loss: 0.0037 mae: 0.0400
-val loss: 0.0075 mae: 0.0429
-Elapsed time (sec.): 24.928
+train loss: 0.0038 mae: 0.0401
+val loss: 0.0074 mae: 0.0427
+Elapsed time (sec.): 12.991
 
 Epoch 287/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0397
-val loss: 0.0076 mae: 0.0433
-Elapsed time (sec.): 24.949
+train loss: 0.0038 mae: 0.0397
+val loss: 0.0075 mae: 0.0436
+Elapsed time (sec.): 12.913
 
 Epoch 288/299
 current lr: 0.0001
-train loss: 0.0037 mae: 0.0401
-val loss: 0.0077 mae: 0.0432
-Elapsed time (sec.): 27.384
+train loss: 0.0038 mae: 0.0401
+val loss: 0.0075 mae: 0.0427
+Elapsed time (sec.): 14.935
 
 Epoch 289/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0398
-val loss: 0.0076 mae: 0.0429
-Elapsed time (sec.): 25.582
+train loss: 0.0038 mae: 0.0399
+val loss: 0.0074 mae: 0.0424
+Elapsed time (sec.): 13.045
 
 Epoch 290/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0397
-val loss: 0.0078 mae: 0.0445
-Elapsed time (sec.): 27.896
+train loss: 0.0038 mae: 0.0398
+val loss: 0.0077 mae: 0.0445
+Elapsed time (sec.): 15.090
 
 Epoch 291/299
 current lr: 0.0001
-train loss: 0.0037 mae: 0.0401
-val loss: 0.0076 mae: 0.0423
-Elapsed time (sec.): 24.971
+train loss: 0.0038 mae: 0.0402
+val loss: 0.0074 mae: 0.0423
+Elapsed time (sec.): 12.898
 
 Epoch 292/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0391
-val loss: 0.0076 mae: 0.0424
-Elapsed time (sec.): 24.948
+train loss: 0.0037 mae: 0.0392
+val loss: 0.0074 mae: 0.0422
+Elapsed time (sec.): 13.062
 
 Epoch 293/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0396
-val loss: 0.0077 mae: 0.0433
-Elapsed time (sec.): 27.277
+train loss: 0.0037 mae: 0.0399
+val loss: 0.0074 mae: 0.0430
+Elapsed time (sec.): 14.922
 
 Epoch 294/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0401
-val loss: 0.0076 mae: 0.0425
-Elapsed time (sec.): 24.919
+train loss: 0.0038 mae: 0.0402
+val loss: 0.0074 mae: 0.0423
+Elapsed time (sec.): 13.042
 
 Epoch 295/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0397
-val loss: 0.0076 mae: 0.0424
-Elapsed time (sec.): 24.936
+train loss: 0.0037 mae: 0.0399
+val loss: 0.0074 mae: 0.0425
+Elapsed time (sec.): 13.048
 
 Epoch 296/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0399
-val loss: 0.0077 mae: 0.0432
-Elapsed time (sec.): 27.182
+train loss: 0.0037 mae: 0.0399
+val loss: 0.0075 mae: 0.0432
+Elapsed time (sec.): 15.022
 
 Epoch 297/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0399
-val loss: 0.0076 mae: 0.0425
-Elapsed time (sec.): 24.949
+train loss: 0.0038 mae: 0.0399
+val loss: 0.0075 mae: 0.0424
+Elapsed time (sec.): 13.026
 
 Epoch 298/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0396
-val loss: 0.0077 mae: 0.0430
-Elapsed time (sec.): 27.256
+train loss: 0.0037 mae: 0.0397
+val loss: 0.0075 mae: 0.0430
+Elapsed time (sec.): 15.012
 
 Epoch 299/299
 current lr: 0.0001
-train loss: 0.0036 mae: 0.0397
-val loss: 0.0077 mae: 0.0429
-Elapsed time (sec.): 24.972
+train loss: 0.0037 mae: 0.0399
+val loss: 0.0074 mae: 0.0428
+Elapsed time (sec.): 12.966
 
-Total elapsed time (sec.): 7782.083
-The best val metric: 0.042318
+Total elapsed time (sec.): 4162.119
+The best val metric: 0.042156
 
-test loss: 0.0077 mae: 0.0428
+test loss: 0.0073 mae: 0.0425
 
 END

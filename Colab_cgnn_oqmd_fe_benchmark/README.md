@@ -9,7 +9,7 @@
 
 | Model      | RMSE (meV) | MAE (meV)  | Time   |
 |------------|-----------:|-----------:|-------:|
-| Benchmark  |       87.7 |       42.8 | 2h 10m |
+| Benchmark  |       85.5 |       42.5 | 1h  9m |
 | Database   |      124.2 |       84.8 |     NA |
 
 <p>
