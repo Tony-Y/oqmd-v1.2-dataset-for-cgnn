@@ -24,6 +24,9 @@ with open("split.json", 'w') as f:
     json.dump(split, f)
 ```
 
+## Errata of Space Group
+As of December 2022, there are 15 corrections for space group. You can see at [this link](https://github.com/Tony-Y/oqmd-v1.2-dataset-for-cgnn/blob/main/errata_spacegroup.csv). These incorrect determinations were uncovered by updating Spglib (https://spglib.github.io/spglib/).
+
 # Gallery
 [Jadeite](https://en.wikipedia.org/wiki/Jadeite),
 [Benitoite](https://en.wikipedia.org/wiki/Benitoite),
