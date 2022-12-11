@@ -1,0 +1,83 @@
+username@qmpy-ssd200:~$ ./run.sh restore
+[mysqld]
+
+# #################
+# Common
+# #################
+
+server_id=1
+
+# #################
+# innodb
+# #################
+
+innodb_buffer_pool_size=1G
+innodb_log_file_size=1G
+innodb_flush_method=O_DIRECT
+
+innodb_io_capacity=4000
+innodb_io_capacity_max=8000
+
+# For importing data
+skip_innodb_doublewrite
+waiting for mysqld to be connectable...
+mysqld is alive
+--2022-12-10 03:17:06--  https://static.oqmd.org/static/downloads/qmdb__v1_2__062018.sql.gz
+Resolving static.oqmd.org (static.oqmd.org)... 34.117.200.84
+Connecting to static.oqmd.org (static.oqmd.org)|34.117.200.84|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9516138614 (8.9G) [application/x-sql]
+Saving to: 'qmdb__v1_2__062018.sql.gz'
+
+qmdb__v1_2__062018. 100%[===================>]   8.86G   137MB/s    in 61s
+
+2022-12-10 03:18:07 (149 MB/s) - 'qmdb__v1_2__062018.sql.gz' saved [9516138614/9516138614]
+
+8.86GiB 1:00:30 [2.50MiB/s] [================================>] 100%
+
+username@qmpy-ssd200:~$ ./run.sh
+waiting for mysqld to be connectable...
+... (It takes about 1 min.)
+waiting for mysqld to be connectable...
+mysqld is alive
+(qmpy) root@2a5710d10df5:/working# /cgnn/download.sh
+--2022-12-10 04:24:01--  https://github.com/Tony-Y/cgnn/tarball/master
+...
+Location: https://codeload.github.com/Tony-Y/cgnn/legacy.tar.gz/refs/heads/master [following]
+--2022-12-10 04:24:01--  https://codeload.github.com/Tony-Y/cgnn/legacy.tar.gz/refs/heads/master
+...
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: 'STDOUT'
+
+-                       [ <=>                ] 451.45K  --.-KB/s    in 0.1s
+
+2022-12-10 04:24:02 (3.52 MB/s) - written to stdout [462287]
+
+(qmpy) root@2a5710d10df5:/working# apt-get update
+(qmpy) root@2a5710d10df5:/working# apt-get install tmux
+(qmpy) root@2a5710d10df5:/working# cd cgnn/OQMD
+(qmpy) root@2a5710d10df5:/working/cgnn/OQMD# tmux
+
+---
+root@2a5710d10df5:/working/cgnn/OQMD# mkdir data
+root@2a5710d10df5:/working/cgnn/OQMD# python ../tools/oqmd_data.py
+('Total Materials:', 561888)
+100%|#######################################| 562/562 [5:42:59<00:00, 36.62s/it]
+---
+top - 10:03:54 up  7:07,  1 user,  load average: 1.06, 1.05, 1.00
+Tasks:   7 total,   1 running,   6 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 83.7 us,  1.7 sy,  0.0 ni,  6.4 id,  7.7 wa,  0.0 hi,  0.5 si,  0.0 st
+KiB Mem :  4025340 total,   131164 free,  1800652 used,  2093524 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.  1972016 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+    862 root      20   0  694940 273252  50992 S 86.7  6.8 287:17.13 python
+      1 root      20   0   18520   2160   1692 S  0.0  0.1   0:00.05 bash
+     11 root      20   0    4640    740    600 S  0.0  0.0   0:00.00 mysqld_sa+
+    442 mysql     20   0 2199416 1.301g  16956 S  0.0 33.9  23:48.18 mysqld
+    851 root      20   0   27112   2244   1648 S  0.0  0.1   0:00.39 tmux: ser+
+    852 root      20   0   18520   1196    756 S  0.0  0.0   0:00.00 bash
+    884 root      20   0   38736   3184   2692 R  0.0  0.1   0:00.00 top
+---
+

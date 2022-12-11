@@ -1,0 +1,66 @@
+username@qmpy-ssd200:~$ ./run.sh no_mysqld
+(qmpy) root@00405a42940b:/working# apt-get update
+(qmpy) root@00405a42940b:/working# apt-get install tmux
+(qmpy) root@00405a42940b:/working# tmux
+
+---
+root@00405a42940b:/working# cd cgnn/OQMD
+root@00405a42940b:/working/cgnn/OQMD# python ../tools/mp_graph.py
+/qmpy/lib/python2.7/site-packages/pymatgen/__init__.py:89: UserWarning:
+Pymatgen will drop Py2k support from v2019.1.1. Pls consult the documentation
+at https://www.pymatgen.org for more details.
+  at https://www.pymatgen.org for more details.""")
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 tasks      | elapsed:  2.7min
+[Parallel(n_jobs=-1)]: Done   9 tasks      | elapsed:  5.4min
+[Parallel(n_jobs=-1)]: Done  16 tasks      | elapsed:  7.3min
+[Parallel(n_jobs=-1)]: Done  25 tasks      | elapsed: 11.4min
+[Parallel(n_jobs=-1)]: Done  34 tasks      | elapsed: 14.4min
+[Parallel(n_jobs=-1)]: Done  45 tasks      | elapsed: 17.6min
+[Parallel(n_jobs=-1)]: Done  56 tasks      | elapsed: 22.7min
+[Parallel(n_jobs=-1)]: Done  69 tasks      | elapsed: 26.7min
+[Parallel(n_jobs=-1)]: Done  82 tasks      | elapsed: 32.3min
+[Parallel(n_jobs=-1)]: Done  97 tasks      | elapsed: 37.8min
+[Parallel(n_jobs=-1)]: Done 112 tasks      | elapsed: 43.4min
+[Parallel(n_jobs=-1)]: Done 129 tasks      | elapsed: 49.7min
+[Parallel(n_jobs=-1)]: Done 146 tasks      | elapsed: 55.6min
+[Parallel(n_jobs=-1)]: Done 165 tasks      | elapsed: 63.3min
+[Parallel(n_jobs=-1)]: Done 184 tasks      | elapsed: 69.8min
+[Parallel(n_jobs=-1)]: Done 205 tasks      | elapsed: 78.0min
+[Parallel(n_jobs=-1)]: Done 226 tasks      | elapsed: 85.8min
+[Parallel(n_jobs=-1)]: Done 249 tasks      | elapsed: 94.7min
+[Parallel(n_jobs=-1)]: Done 272 tasks      | elapsed: 102.7min
+[Parallel(n_jobs=-1)]: Done 297 tasks      | elapsed: 112.2min
+[Parallel(n_jobs=-1)]: Done 322 tasks      | elapsed: 121.6min
+[Parallel(n_jobs=-1)]: Done 349 tasks      | elapsed: 131.8min
+[Parallel(n_jobs=-1)]: Done 376 tasks      | elapsed: 141.7min
+[Parallel(n_jobs=-1)]: Done 405 tasks      | elapsed: 151.9min
+[Parallel(n_jobs=-1)]: Done 434 tasks      | elapsed: 163.0min
+[Parallel(n_jobs=-1)]: Done 465 tasks      | elapsed: 174.7min
+[Parallel(n_jobs=-1)]: Done 496 tasks      | elapsed: 186.4min
+[Parallel(n_jobs=-1)]: Done 529 tasks      | elapsed: 198.8min
+[Parallel(n_jobs=-1)]: Done 562 out of 562 | elapsed: 209.9min finished
+---
+top - 14:42:49 up  3:31,  1 user,  load average: 8.00, 8.00, 8.00
+Tasks:  14 total,   9 running,   5 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 96.4 us,  0.1 sy,  0.0 ni,  3.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 32882080 total, 30645216 free,  1424836 used,   812028 buff/cache
+KiB Swap:        0 total,        0 free,        0 used. 31071148 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+    325 root      20   0  420176 200924  44092 R 100.0  0.6 203:33.38 python
+    326 root      20   0  381692 161224  43936 R 100.0  0.5 203:34.76 python
+    327 root      20   0  397112 176212  43764 R 100.0  0.5 203:33.49 python
+    328 root      20   0  389040 170024  44328 R 100.0  0.5 203:31.58 python
+    329 root      20   0  374520 154232  44212 R 100.0  0.5 203:33.33 python
+    330 root      20   0  404360 185136  44216 R 100.0  0.6 203:33.17 python
+    331 root      20   0  368552 148064  43676 R 100.0  0.5 203:31.61 python
+    332 root      20   0  388572 168092  43920 R 100.0  0.5 203:32.73 python
+      1 root      20   0   18520   3472   3012 S   0.0  0.0   0:00.02 bash
+    306 root      20   0   27112   3684   3092 S   0.0  0.0   0:00.28 tmux: se+
+    307 root      20   0   18520   3560   3116 S   0.0  0.0   0:00.00 bash
+    318 root      20   0  597132 130048  45636 S   0.0  0.4   0:10.57 python
+    324 root      20   0  252680  44652  21556 S   0.0  0.1   0:00.11 python
+    383 root      20   0   38752   3236   2808 R   0.0  0.0   0:00.00 top
+---
+

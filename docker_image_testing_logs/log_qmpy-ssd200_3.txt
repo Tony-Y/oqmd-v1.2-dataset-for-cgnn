@@ -1,0 +1,51 @@
+takenori@qmpy-ssd200:~$ ./run.sh no_mysqld
+(qmpy) root@2984a94898da:/working# apt-get update
+(qmpy) root@2984a94898da:/working# apt-get install tmux
+(qmpy) root@2984a94898da:/working# tmux
+
+---
+root@2984a94898da:/working# cd cgnn/OQMD/
+root@2984a94898da:/working/cgnn/OQMD# python oqmd.py data
+/qmpy/lib/python2.7/site-packages/pymatgen/__init__.py:89: UserWarning:
+Pymatgen will drop Py2k support from v2019.1.1. Pls consult the documentation
+at https://www.pymatgen.org for more details.
+  at https://www.pymatgen.org for more details.""")
+Data Files: 562
+Data: 1000 data/mp_data_000.npz
+Data: 1000 data/mp_data_001.npz
+Data: 1000 data/mp_data_002.npz
+...
+Data: 1000 data/mp_data_559.npz
+Data: 1000 data/mp_data_560.npz
+Data: 888 data/mp_data_561.npz
+Total Data: 561888
+unique_z: 89
+min z: 1
+max z: 94
+[ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48
+ 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72
+ 73 74 75 76 77 78 79 80 81 82 83 89 90 91 92 93 94]
+Unary formulas: 89
+Multi formulas: 338047
+Train formulas: 270528
+Val formulas: 33804
+Test formulas: 33804
+Train: 449867
+Val: 56289
+Test: 55732
+---
+top - 16:13:48 up 32 min,  1 user,  load average: 1.00, 1.00, 0.91
+Tasks:   5 total,   2 running,   3 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 49.5 us,  0.7 sy,  0.0 ni, 49.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st
+KiB Mem :  8147736 total,  1697248 free,  5207540 used,  1242948 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.  2696820 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+    316 root      20   0 5406808 4.781g  39964 R 100.0 61.5  30:31.78 python
+      1 root      20   0   18520   3328   2872 S   0.0  0.0   0:00.03 bash
+    300 root      20   0   27220   3752   3072 S   0.0  0.0   0:00.13 tmux: se+
+    301 root      20   0   18520   3476   3028 S   0.0  0.0   0:00.01 bash
+    330 root      20   0   38712   3320   2876 R   0.0  0.0   0:00.00 top
+---
+
